@@ -1,5 +1,7 @@
 package prog2.model;
 
+import javax.management.modelmbean.InvalidTargetObjectTypeException;
+
 public class Allotjament implements InAllotjament {
 
     private String nom;
@@ -45,7 +47,7 @@ public class Allotjament implements InAllotjament {
             case BAIXA:
                 return estadaMinimaBAIXA;
             default:
-                throw new Incidencia("Valor inesperado: " + temp);
+                return 0;
         }
     }
 
