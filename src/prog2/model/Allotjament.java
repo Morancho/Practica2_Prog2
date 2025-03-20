@@ -30,7 +30,14 @@ public class Allotjament implements InAllotjament {
 
     @Override
     public long getEstadaMinima(Temp temp) {
-        return 0;
+        switch (temp) {
+            case ALTA:
+                return estadaMinimaALTA;
+            case BAIXA:
+                return estadaMinimaBAIXA;
+            default:
+                throw new Incidencia("Valor inesperado: " + temp);
+        }
     }
 
     @Override
