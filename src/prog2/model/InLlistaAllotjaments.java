@@ -42,14 +42,13 @@ public interface InLlistaAllotjaments {
      */
     
     public boolean contains(Allotjament allotjament);
-    
+
     /**
      * Busca l'allotjament amb el nom rebut per paràmetre i el retorna. En cas que no existeixi llança una excepció.
-     * @param nom String amb el nom de l'allotjament
+     * @param id String amb el id de l'allotjament
      * @return  Objecte de tipus Allotjament
      * @throws prog2.vista.ExcepcioCamping Aquest mètode podria llançar una excepció si fos necessari.
      */
-    public Allotjament getAllotjament(String nom) throws ExcepcioCamping;
-    
+    public Allotjament getAllotjament(String id) throws ExcepcioCamping;
  
 }
