@@ -1,6 +1,10 @@
 package prog2.model;
 
-public class Acces implements InAcces {
+import java.util.ArrayList;
+
+public abstract class Acces implements InAcces {
+    ArrayList<Acces> llistaAccessos;
+
     @Override
     public void afegirAllotjament(Allotjament allotjament) {
 

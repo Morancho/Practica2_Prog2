@@ -24,6 +24,7 @@ public class Allotjament implements InAllotjament {
 
     @Override
     public void setId(String id) {
+        this.id = id;
 
     }
 
