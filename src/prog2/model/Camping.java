@@ -1,6 +1,21 @@
 package prog2.model;
+import prog2.vista.*;
+
+import java.util.ArrayList;
 
 public class Camping implements InCamping {
+    private String nomCamping;
+
+    private ArrayList<Client> clients;
+    private LlistaReserves reserves;
+
+    public Camping (String nom) {
+        this.nom = nom;
+        allotjaments = new ArrayList<>();
+        this.reserves = new LlistaReserves();
+        this.clients = new ArrayList<>();
+    }
+
     @Override
     public String getNomCamping() {
         return "";
@@ -48,6 +63,9 @@ public class Camping implements InCamping {
 
     @Override
     public void inicialitzaDadesCamping() {
+
+    }
+    public Allotjament buscarAllotjament(String allotjamentID) {
 
     }
 }

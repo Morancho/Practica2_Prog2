@@ -1,6 +1,8 @@
 package prog2.model;
 
-import javax.management.modelmbean.InvalidTargetObjectTypeException;
+import prog2.vista.ExcepcioCamping;
+
+
 
 public class Allotjament implements InAllotjament {
 
@@ -8,7 +10,7 @@ public class Allotjament implements InAllotjament {
     private String id;
     private long estadaMinimaALTA;
     private long estadaMinimaBAIXA;
-
+    private String estat;
 
 
     //CONSTRUCTOR
@@ -17,6 +19,7 @@ public class Allotjament implements InAllotjament {
         this.id = id;
         this.estadaMinimaALTA = estadaMinimaAlta;
         this.estadaMinimaBAIXA = estadaMinimaBaixa;
+        this.estat = "Operatiu";
     }
     @Override
     public String getNom() {
@@ -47,7 +50,7 @@ public class Allotjament implements InAllotjament {
             case BAIXA:
                 return estadaMinimaBAIXA;
             default:
-                return 0;
+                throw new ExcepcioCamping("Valor inesperado: " + temp);
         }
     }
 
@@ -65,4 +68,19 @@ public class Allotjament implements InAllotjament {
     public void obrirAllotjament() {
 
     }
+    public String getEstat() {
+        return estat;
+    }
+
+    public long getEstadaMinimaBAIXA() {
+        return estadaMinimaBAIXA;
+    }
+    public long getEstadaMinimaALTA() {
+        return estadaMinimaALTA;
+    }
+    public String toString(){
+        return "Nom="+getNom()+", Id="+getId()+", estada mínima en temp ALTA: "+getEstadaMinimaALTA()+", estada mínima en temp BAIXA: "+getEstadaMinimaBAIXA()+".";
+        //"Nom=Allotjament Test, Id=ID001, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3."
+    }
 }
+
