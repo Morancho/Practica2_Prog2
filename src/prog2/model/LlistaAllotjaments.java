@@ -5,42 +5,52 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class LlistaAllotjaments implements InLlistaAllotjaments {
-    private ArrayList<Allotjament> allotjaments;
+    private ArrayList<Allotjament> llistaAllotjaments;
     public LlistaAllotjaments () {
 
-        allotjaments = new ArrayList<>();
+        llistaAllotjaments = new ArrayList<>();
 
     }
     @Override
     public void afegirAllotjament(Allotjament allotjament) throws ExcepcioCamping {
-        allotjaments.add(allotjament);
+        llistaAllotjaments.add(allotjament);
     }
 
     @Override
     public void buidar() {
-        allotjaments.clear();
+        this.llistaAllotjaments.clear();
 
     }
+    /*
+    El mètode llistarAllotjaments de la classe LlistaAllotjaments rep un String estat
+    que podrà ser "Operatiu", "No Operatiu" i "Tots".
+
+
+    Aquesta informació s'ha de traslladar a un boolean estatBoolean per
+    tal que al recòrrer la llista d'Allotjaments es pugui saber quins s'han
+    de seleccionar per concatenar la seva informació al String de return.
+
+     */
 
     @Override
     public String llistarAllotjaments(String estat) throws ExcepcioCamping {
-        StringBuilder result = new StringBuilder();
-        boolean trobat = false;
+        String result = "";
 
 
-        for (Allotjament a : allotjaments) {
-            if (a.getEstat().equals(estat)) {
-                result.append(a.toString()).append("\n");  // o utilitza el mètode a.getInformacio() si existeix
-                trobat = true;
+
+        Iterator<Allotjament> iterator = llistaAllotjaments.iterator();
+
+        while (iterator.hasNext()) {
+            Allotjament a = iterator.next();
+            if(estat.equals("Tots")){
+                result = result + a + "\n";
             }
 
+            if (a.getEstat().equals(estat)) {
+                result = result + a + "\n";
+            }
         }
-
-        if (!trobat) {
-            throw new ExcepcioCamping("No s'han trobat allotjaments en l'estat: " + estat);
-        }
-
-        return result.toString();
+        return result;
     }
 
     @Override
@@ -49,7 +59,7 @@ public class LlistaAllotjaments implements InLlistaAllotjaments {
         boolean trobat = false;
 
 
-        for (Allotjament a : allotjaments) {
+        for (Allotjament a : llistaAllotjaments) {
             if (a.getEstat().equals("Operatiu")) {
 
                 return true;
@@ -63,16 +73,19 @@ public class LlistaAllotjaments implements InLlistaAllotjaments {
 
     @Override
     public boolean contains(Allotjament allotjament) {
-        return allotjaments.contains(allotjament);
+        return llistaAllotjaments.contains(allotjament);
     }
 
     @Override
     public Allotjament getAllotjament(String id) throws ExcepcioCamping {
-        for (Allotjament allotjament : allotjaments) {
-            if (id.equals(allotjament.getId())) {// Compara amb l'string no nul
-                return allotjament;
+        Iterator<Allotjament> iterator = llistaAllotjaments.iterator();
+        while (iterator.hasNext()) {
+            Allotjament a = iterator.next();
+            if (a.getId().equals(id)) {
+                return a;
             }
         }
+
         return null;
 
     }

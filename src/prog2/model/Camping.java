@@ -6,14 +6,12 @@ import java.util.ArrayList;
 public class Camping implements InCamping {
     private String nomCamping;
 
-    private ArrayList<Client> clients;
-    private LlistaReserves reserves;
+
 
     public Camping (String nom) {
-        this.nom = nom;
-        allotjaments = new ArrayList<>();
-        this.reserves = new LlistaReserves();
-        this.clients = new ArrayList<>();
+        this.nomCamping = nom;
+
+
     }
 
     @Override
@@ -65,7 +63,5 @@ public class Camping implements InCamping {
     public void inicialitzaDadesCamping() {
 
     }
-    public Allotjament buscarAllotjament(String allotjamentID) {
 
-    }
 }
