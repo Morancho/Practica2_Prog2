@@ -1,6 +1,19 @@
 package prog2.model;
+import prog2.vista.*;
+
+import java.util.ArrayList;
 
 public class Camping implements InCamping {
+    private String nomCamping;
+
+
+
+    public Camping (String nom) {
+        this.nomCamping = nom;
+
+
+    }
+
     @Override
     public String getNomCamping() {
         return "";
@@ -50,4 +63,5 @@ public class Camping implements InCamping {
     public void inicialitzaDadesCamping() {
 
     }
+
 }

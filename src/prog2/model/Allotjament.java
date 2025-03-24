@@ -8,7 +8,6 @@ public class Allotjament implements InAllotjament {
     private String id;
     private long estadaMinimaALTA;
     private long estadaMinimaBAIXA;
-    private boolean estat;
 
 
 
@@ -39,13 +38,6 @@ public class Allotjament implements InAllotjament {
         this.id = id;
 
     }
-    public void setEstat(boolean estat) {
-        this.estat = estat;
-    }
-
-    public boolean getEstat() {
-        return estat;
-    }
 
     @Override
     public long getEstadaMinima(Temp temp) {
@@ -60,26 +52,14 @@ public class Allotjament implements InAllotjament {
     }
 
     @Override
-    public void setEstadaMinima(long estadaMinimaALTA, long estadaMinimaBAIXA) {
-        this.estadaMinimaALTA = estadaMinimaALTA;
-        this.estadaMinimaBAIXA = estadaMinimaBAIXA;
+    public void setEstadaMinima(long estadaMinimaALTA_, long estadaMinimaBAIXA_) {
+
     }
 
     @Override
     public void tancarAllotjament(Incidencia in) {
-        switch (in.getTipus()) {
-            case Reparacio:
-                break;
-            case Neteja:
-                break;
-            case Tancament:
-                break;
-            default:
-                ExcepcioCamping("Tipus d'incidència desconegut. No es pot tancar l'allotjament.");
-                break;
-        }
-    }
 
+    }
 
     @Override
     public void obrirAllotjament() {
