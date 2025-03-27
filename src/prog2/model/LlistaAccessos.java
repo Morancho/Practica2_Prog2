@@ -40,7 +40,7 @@ public class LlistaAccessos implements InLlistaAccessos {
             // si hay alguna operación de allotjaments que use este acceso, vuelva a abrirlo.
             LlistaAllotjaments llistaAllotjamentsPerAccess = acc.getllistaAllotjament();
             if(llistaAllotjamentsPerAccess.containsAllotjamentOperatiu()) {
-                acc.obrirAccess();
+                acc.obrirAcces();
             }
         }
     }
