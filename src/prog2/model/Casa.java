@@ -1,23 +1,23 @@
 package prog2.model;
 
 public abstract class Casa extends Allotjament {
-    private String mida;
+    private float mida;
     private int numHabitacions;
     private int capacitatPersones;
 
     // Constructor
-    public Casa(String nom, String id, int estadaMinimaAlta, int estadaMinimaBaixa, String mida, int numHabitacions, int capacitatPersones) {
-        super(nom, id, estadaMinimaAlta, estadaMinimaBaixa);
+    public Casa(String nom, String id, int estadaMinimaAlta, int estadaMinimaBaixa, boolean estat, String iluminacio, float mida, int numHabitacions, int capacitatPersones) {
+        super(nom, id, estadaMinimaAlta, estadaMinimaBaixa, estat, iluminacio);
         setMida(mida);
         setNumHabitacions(numHabitacions);
         setCapacitatPersones(capacitatPersones);
     }
 
     //GETTERS Y SETTERS
-    public void setMida(String mida) {
+    public void setMida(float mida) {
         this.mida = mida;
     }
-    public String getMida() {
+    public float getMida() {
         return mida;
     }
     public int getNumHabitacions() {

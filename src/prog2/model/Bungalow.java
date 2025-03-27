@@ -10,8 +10,8 @@ public class Bungalow extends Casa {
 
 
     //CONSTRUCTOR
-    public Bungalow(String nom, String idAllotjament, String  mida, int habitacions, int placesPersones, int placesParquing, boolean terrassa, boolean tv, boolean aireFred) {
-        super(nom, idAllotjament, 7, 4, mida, habitacions, placesPersones);
+    public Bungalow(String nom, String idAllotjament, boolean estat, String iluminacio, float  mida, int habitacions, int placesPersones, int placesParquing, boolean terrassa, boolean tv, boolean aireFred) {
+        super(nom, idAllotjament, 7, 4, estat, iluminacio, mida, habitacions, placesPersones);
         //ATRIBUTS NOUS
         setPlacesParquing(placesParquing);
         setTerrassa(terrassa);

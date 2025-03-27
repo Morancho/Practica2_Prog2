@@ -13,12 +13,17 @@ public abstract class Allotjament implements InAllotjament {
 
 
 
+
+
     //CONSTRUCTOR
-    public Allotjament(String nom, String id, int estadaMinimaAlta, int estadaMinimaBaixa) {
+    public Allotjament(String nom, String id, int estadaMinimaAlta, int estadaMinimaBaixa, boolean estat, String iluminacio) {
         this.nom = nom;
         this.id = id;
         this.estadaMinimaALTA = estadaMinimaAlta;
         this.estadaMinimaBAIXA = estadaMinimaBaixa;
+        this.estat = estat;
+        this.iluminacio = iluminacio;
+
     }
 
     //GETTERS SETTERS

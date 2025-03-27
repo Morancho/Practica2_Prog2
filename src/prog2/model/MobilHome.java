@@ -4,8 +4,8 @@ public class MobilHome extends Casa {
     private boolean terrassaAmbBarbacoa;
 
     // Constructor
-    public MobilHome(String nom, String idAllotjament, String mida, int habitacions, int placesPersones, boolean terrassaBarbacoa) {
-        super(nom, idAllotjament, 5, 3, mida,  habitacions, placesPersones);
+    public MobilHome(String nom, String idAllotjament, boolean estat, String iluminacio, float mida, int habitacions, int placesPersones, boolean terrassaBarbacoa) {
+        super(nom, idAllotjament, 5, 3, estat, iluminacio, mida,  habitacions, placesPersones);
         //ATRIBUTS NOUS
         setTerrassaAmbBarbacoa(terrassaBarbacoa);
     }
