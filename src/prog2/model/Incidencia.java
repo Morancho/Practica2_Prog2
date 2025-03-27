@@ -1,5 +1,7 @@
 package prog2.model;
 
+import prog2.vista.ExcepcioCamping;
+
 public class Incidencia {
 
     public static enum TipusIncidencia {
@@ -15,11 +17,21 @@ public class Incidencia {
     private TipusIncidencia tipus;
 
     // Constructor
-    public Incidencia(int numero, String allotjament, String data, TipusIncidencia tipus) {
+    public Incidencia(int numero, String allotjament, String data, String tipus) {
         this.numero = numero;
         this.allotjament = allotjament;
         this.data = data;
-        this.tipus = tipus;
+        switch (tipus) {
+            case "Reparacio":
+                this.tipus = TipusIncidencia.Reparacio;
+                break;
+            case "Neteja":
+                this.tipus = TipusIncidencia.Neteja;
+                break;
+            case "Tancament":
+                this.tipus = TipusIncidencia.Tancament;
+                break;
+        }
     }
 
     // Getters
@@ -54,6 +66,19 @@ public class Incidencia {
 
     public void setTipus(TipusIncidencia tipus) {
         this.tipus = tipus;
+    }
+
+    public String getIluminacioAllotjament() {
+        switch (tipus) {
+            case Reparacio:
+                return "100%";
+            case Neteja:
+                return "50%";
+            case Tancament:
+                return "0%";
+            default:
+                throw new ExcepcioCamping("ERROR: Tipus de Incidencia incorrecte");
+        }
     }
 
     // Mètode toString

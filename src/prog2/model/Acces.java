@@ -24,4 +24,8 @@ public abstract class Acces implements InAcces {
     public boolean isAccessibilitat() {
         return false;
     }
+
+    public LlistaAllotjaments getllistaAllotjament() {
+        return llistaAccessos;
+    }
 }
