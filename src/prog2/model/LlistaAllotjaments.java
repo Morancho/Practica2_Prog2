@@ -8,12 +8,12 @@ public class LlistaAllotjaments implements InLlistaAllotjaments {
     private ArrayList<Allotjament> llistaAllotjaments;
     public LlistaAllotjaments () {
 
-        llistaAllotjaments = new ArrayList<>();
+        this.llistaAllotjaments = new ArrayList<>();
 
     }
     @Override
     public void afegirAllotjament(Allotjament allotjament) throws ExcepcioCamping {
-        llistaAllotjaments.add(allotjament);
+        this.llistaAllotjaments.add(allotjament);
     }
 
     @Override
@@ -36,39 +36,47 @@ public class LlistaAllotjaments implements InLlistaAllotjaments {
     public String llistarAllotjaments(String estat) throws ExcepcioCamping {
         String result = "";
 
-
-
         Iterator<Allotjament> iterator = llistaAllotjaments.iterator();
 
+
         while (iterator.hasNext()) {
-            Allotjament a = iterator.next();
-            if(estat.equals("Tots")){
-                result = result + a + "\n";
+            Allotjament allotjament = iterator.next();
+
+
+            switch (estat){
+                case "Tots":
+                    result += allotjament.toString() + "\n";
+                    break;
+                case "Operatiu":
+                    if(allotjament.getEstat()){
+                        result += allotjament.toString() + "\n";
+                    }
+                    break;
+                case "No Operatiu":
+                    if(!allotjament.getEstat()){
+                        result += allotjament.toString() + "\n";
+                    }
             }
 
-            if (a.getEstat().equals(estat)) {
-                result = result + a + "\n";
-            }
         }
         return result;
+
     }
 
     @Override
     public boolean containsAllotjamentOperatiu() {
 
         boolean trobat = false;
-
-
-        for (Allotjament a : llistaAllotjaments) {
-            if (a.getEstat().equals("Operatiu")) {
-
-                return true;
+        Iterator<Allotjament> iterator = llistaAllotjaments.iterator();
+        while (iterator.hasNext() && !trobat) {
+            Allotjament allotjament = iterator.next();
+            if(allotjament.getEstat()){
+                trobat = true;
             }
-
         }
 
 
-        return false;
+        return trobat;
     }
 
     @Override
@@ -86,11 +94,13 @@ public class LlistaAllotjaments implements InLlistaAllotjaments {
             }
         }
 
-        return null;
+        throw new ExcepcioCamping("Allotjament no trobat amb id: " + id);
 
     }
 
     public void updateAllotjamentEstat(Allotjament a, Incidencia incidencia) throws ExcepcioCamping{
+
+
         Iterator<Allotjament> iterator = llistaAllotjaments.iterator();
         while (iterator.hasNext()) {
             Allotjament allotjament = iterator.next();
@@ -99,7 +109,17 @@ public class LlistaAllotjaments implements InLlistaAllotjaments {
             }
         }
     }
+    /*
     public void actualitzaEstatAccessos(){
+        Iterator<Allotjament> iterator = llistaAllotjaments.iterator();
+        while (iterator.hasNext()) {
+            Allotjament allotjament = iterator.next();
+            if (allotjament.getId().equals(a.getId())) {
 
+            }
+        }
     }
+
+     */
+
 }

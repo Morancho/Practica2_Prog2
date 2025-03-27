@@ -12,12 +12,12 @@ public class Incidencia {
 
 
     private int numero;
-    private String allotjament;
+    private Allotjament allotjament;
     private String data;
     private TipusIncidencia tipus;
 
     // Constructor
-    public Incidencia(int numero, String allotjament, String data, String tipus) {
+    public Incidencia(int numero, Allotjament allotjament, String data, String tipus) {
         this.numero = numero;
         this.allotjament = allotjament;
         this.data = data;
@@ -39,7 +39,7 @@ public class Incidencia {
         return numero;
     }
 
-    public String getAllotjament() {
+    public Allotjament getAllotjament() {
         return allotjament;
     }
 
@@ -56,7 +56,7 @@ public class Incidencia {
         this.numero = numero;
     }
 
-    public void setAllotjament(String allotjament) {
+    public void setAllotjament(Allotjament allotjament) {
         this.allotjament = allotjament;
     }
 

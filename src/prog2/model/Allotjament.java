@@ -2,7 +2,7 @@ package prog2.model;
 
 import prog2.vista.ExcepcioCamping;
 
-public class Allotjament implements InAllotjament {
+public abstract class Allotjament implements InAllotjament {
 
     private String nom;
     private String id;
@@ -57,9 +57,18 @@ public class Allotjament implements InAllotjament {
 
     @Override
     public void setEstadaMinima(long estadaMinimaALTA_, long estadaMinimaBAIXA_) {
+        this.estadaMinimaALTA = estadaMinimaALTA_;
+        this.estadaMinimaBAIXA = estadaMinimaBAIXA_;
 
     }
+    public long getEstadaMinimaBAIXA() {
+        return estadaMinimaBAIXA;
+    }
+    public long getEstadaMinimaALTA() {
+        return estadaMinimaALTA;
+    }
 
+    public abstract boolean correcteFuncionament();
     public boolean getEstat() {
         return estat;
     }
