@@ -5,6 +5,9 @@ import java.util.ArrayList;
 
 public class Camping implements InCamping {
     private String nomCamping;
+    LlistaAllotjaments llistaAllotjaments = new LlistaAllotjaments();
+    LlistaIncidencies llistaIncidencies = new LlistaIncidencies();
+
 
 
 
@@ -36,7 +39,20 @@ public class Camping implements InCamping {
 
     @Override
     public void afegirIncidencia(int num, String tipus, String idAllotjament, String data) throws ExcepcioCamping {
+        Allotjament allotjament = llistaAllotjaments.getAllotjament(idAllotjament);
 
+        if(allotjament != null || !llistaAllotjaments.contains(allotjament)){
+            throw new ExcepcioCamping("No existeix l'allotjament amb id: " + idAllotjament);
+        } else if (llistaIncidencies.getIncidencia(num) != null) {
+            throw new ExcepcioCamping("Ja existeix una incidencia amb l'id: " + num);
+
+        } else{
+            llistaIncidencies.afegirIncidencia(num, tipus, allotjament, data);
+
+            Incidencia inc = llistaIncidencies.getIncidencia(num);
+            llistaAllotjaments.updateAllotjamentEstat(allotjament,inc);
+
+        }
     }
 
     @Override

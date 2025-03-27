@@ -77,7 +77,7 @@ public class LlistaAllotjaments implements InLlistaAllotjaments {
     }
 
     @Override
-    public Allotjament getAllotjament(String id) throws ExcepcioCamping {
+    public  Allotjament getAllotjament(String id) throws ExcepcioCamping {
         Iterator<Allotjament> iterator = llistaAllotjaments.iterator();
         while (iterator.hasNext()) {
             Allotjament a = iterator.next();
@@ -87,6 +87,19 @@ public class LlistaAllotjaments implements InLlistaAllotjaments {
         }
 
         return null;
+
+    }
+
+    public void updateAllotjamentEstat(Allotjament a, Incidencia incidencia) throws ExcepcioCamping{
+        Iterator<Allotjament> iterator = llistaAllotjaments.iterator();
+        while (iterator.hasNext()) {
+            Allotjament allotjament = iterator.next();
+            if (allotjament.getId().equals(a.getId())) {
+                allotjament.tancarAllotjament(incidencia);
+            }
+        }
+    }
+    public void actualitzaEstatAccessos(){
 
     }
 }
