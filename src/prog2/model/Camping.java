@@ -53,7 +53,7 @@ public class Camping implements InCamping {
             Incidencia inc = llistaIncidencies.getIncidencia(num);
             llistaAllotjaments.updateAllotjamentEstat(allotjament,inc);
 
-            llistaAllotjaments.actualitzaEstatAccessos();
+            llistaAccessos.actualitzaEstatAccessos(); //Cambie LlistaAllotjaments per LlistaAccessos par mi tiene sentido
 
         }
     }

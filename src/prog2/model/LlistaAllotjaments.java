@@ -110,7 +110,7 @@ public class LlistaAllotjaments implements InLlistaAllotjaments {
         }
     }
     /*
-    public void actualitzaEstatAccessos(){
+    public void actualitzaEstatAccessos() {
         Iterator<Allotjament> iterator = llistaAllotjaments.iterator();
         while (iterator.hasNext()) {
             Allotjament allotjament = iterator.next();
@@ -119,7 +119,5 @@ public class LlistaAllotjaments implements InLlistaAllotjaments {
             }
         }
     }
-
      */
-
 }

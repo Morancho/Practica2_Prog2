@@ -21,17 +21,7 @@ public class Incidencia {
         this.numero = numero;
         this.allotjament = allotjament;
         this.data = data;
-        switch (tipus) {
-            case "Reparacio":
-                this.tipus = TipusIncidencia.Reparacio;
-                break;
-            case "Neteja":
-                this.tipus = TipusIncidencia.Neteja;
-                break;
-            case "Tancament":
-                this.tipus = TipusIncidencia.Tancament;
-                break;
-        }
+        this.tipus = TipusIncidencia.valueOf(tipus);
     }
 
     // Getters

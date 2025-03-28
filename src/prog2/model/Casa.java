@@ -3,14 +3,14 @@ package prog2.model;
 public abstract class Casa extends Allotjament {
     private float mida;
     private int numHabitacions;
-    private int capacitatPersones;
+    private int placesPersones;
 
     // Constructor
-    public Casa(String nom, String id, int estadaMinimaAlta, int estadaMinimaBaixa, boolean estat, String iluminacio, float mida, int numHabitacions, int capacitatPersones) {
+    public Casa(String nom, String id, int estadaMinimaAlta, int estadaMinimaBaixa, boolean estat, String iluminacio, float mida, int numHabitacions, int placesPersones) {
         super(nom, id, estadaMinimaAlta, estadaMinimaBaixa, estat, iluminacio);
         setMida(mida);
         setNumHabitacions(numHabitacions);
-        setCapacitatPersones(capacitatPersones);
+        setCapacitatPersones(placesPersones);
     }
 
     //GETTERS Y SETTERS
@@ -27,9 +27,9 @@ public abstract class Casa extends Allotjament {
         this.numHabitacions = numHabitacions;
     }
     public int getCapacitatPersones() {
-        return capacitatPersones;
+        return placesPersones;
     }
-    public void setCapacitatPersones(int capacitatPersones) {
-        this.capacitatPersones = capacitatPersones;
+    public void setCapacitatPersones(int placesPersones) {
+        this.placesPersones = placesPersones;
     }
 }
