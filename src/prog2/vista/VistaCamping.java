@@ -7,11 +7,13 @@ public class VistaCamping {
 
     static private enum OpcionsMenuPrincipal {
         LLISTAR_ALLOTJAMENTS,
-        LLISTAR_ALLOTJAMENTS_OPERATIUS ,
-        MENU_PRINCIPAL_SUBMENU1,
-        MENU_PRINCIPAL_SORTIR};
-
-
+        LLISTAR_ALLOTJAMENTS_OPERATIUS,
+        LLISTAR_ALLOTJAMENTS_NO_OPERATIUS,
+        LLISTAR_ACCESSOS_OBERTS,
+        LLISTAR_ACCESSOS_TANCATS,
+        LLISTAR_INCIDENCIES,
+        MENU_SECUND_SORTIR
+    };
 
 
     public VistaCamping(String nomCamping) {
