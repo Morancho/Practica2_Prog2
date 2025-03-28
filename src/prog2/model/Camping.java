@@ -14,13 +14,11 @@ public class Camping implements InCamping {
 
     public Camping (String nom) {
         this.nomCamping = nom;
-
-
     }
 
     @Override
     public String getNomCamping() {
-        return "";
+        return nomCamping;
     }
 
     @Override
