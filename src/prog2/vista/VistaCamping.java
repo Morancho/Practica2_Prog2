@@ -60,7 +60,7 @@ public class VistaCamping {
     private void gestio(Scanner sc) {
 
         // Creem l'objecte per al menú. Li passem com a primer parà metre el nom del menú
-        Menu<OpcionsMenuPrincipal> menu=new Menu<OpcionsMenuPrincipal>("Menu Principal", OpcionsMenuPrincipal.values());
+        Menu<OpcionsMenuPrincipal> menu = new Menu<OpcionsMenuPrincipal>("Menu Principal", OpcionsMenuPrincipal.values());
 
         // Assignem la descripció de les opcions
         menu.setDescripcions(MenuPrincipal);
@@ -115,6 +115,65 @@ public class VistaCamping {
 
         } while(opcio!= OpcionsMenuPrincipal.SORTIR);
     }
+
+    /**
+     * Menú secundari
+     * @param sc Objecte de tipus Scanner que permet accedir al teclat
+     */
+    private void gestioMenuSecundari(Scanner sc) {
+
+        // Creem l'objecte per al menú. Li passem com a primer parÃ metre el nom del menú
+        Menu<OpcionsMenuSecundari> menu = new Menu<OpcionsMenuSecundari>("Menu Secundari", OpcionsMenuSecundari.values());
+
+        // Assignem la descripció de les opcions
+        menu.setDescripcions(MenuSecundari);
+
+        // Obtenim una opció des del menú i fem les accions pertinents
+        OpcionsMenuSecundari opcio = null;
+        do {
+            // Mostrem les opcions del menú
+            menu.mostrarMenu();
+
+            // Demanem una opcio
+            opcio=menu.getOpcio(sc);
+
+
+            /*
+            LLISTAR_ALLOTJAMENTS,
+            LLISTAR_ALLOTJAMENTS_OPERATIUS,
+            LLISTAR_ALLOTJAMENTS_NO_OPERATIUS,
+            LLISTAR_ACCESSOS_OBERTS,
+            LLISTAR_ACCESSOS_TANCATS,
+            LLISTAR_INCIDENCIES,
+            MENU_SECUND_SORTIR
+             */
+
+            // Fem les accions necessàries
+            switch(opcio) {
+                case LLISTAR_ALLOTJAMENTS:
+                    break;
+                case LLISTAR_ALLOTJAMENTS_OPERATIUS:
+                    break;
+                case LLISTAR_ALLOTJAMENTS_NO_OPERATIUS:
+                    System.out.println("Fins aviat!");
+                    break;
+                case LLISTAR_ACCESSOS_OBERTS:
+                    System.out.println("Fins aviat!");
+                    break;
+                case LLISTAR_ACCESSOS_TANCATS:
+                    System.out.println("Fins aviat!");
+                    break;
+                case LLISTAR_INCIDENCIES:
+                    System.out.println("Fins aviat!");
+                    break;
+                case MENU_SECUND_SORTIR:
+                    System.out.println("Fins aviat!");
+                    break;
+            }
+
+        } while(opcio!= OpcionsMenuSecundari.MENU_SECUND_SORTIR);
+    }
+
 
     public void gestioCamping() {
 
