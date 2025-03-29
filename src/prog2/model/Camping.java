@@ -99,10 +99,7 @@ public class Camping implements InCamping, Serializable {
                 throw new ExcepcioCamping("La data no pot estar buida.");
             }
 
-            // Comprovar si ja existeix una incidència amb el 'num' introducció
-            if (llistaIncidencies.getIncidencia(num) != null) {
-                throw new ExcepcioCamping("Error: Ja existeix una incidència amb l'ID: " + num);
-            }
+
 
 
             // Afegim la incidència i actualitzem llistes
