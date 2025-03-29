@@ -54,6 +54,7 @@ public class VistaCamping {
 
     public void gestioCamping() {
 
+        camping.inicialitzaDadesCamping();
         Scanner sc = new Scanner(System.in);
 
         // Creem l'objecte per al menú. Li passem com a primer parà metre el nom del menú
