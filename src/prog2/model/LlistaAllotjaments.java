@@ -1,10 +1,12 @@
 package prog2.model;
 
 import prog2.vista.ExcepcioCamping;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class LlistaAllotjaments implements InLlistaAllotjaments {
+public class LlistaAllotjaments implements InLlistaAllotjaments, Serializable {
     private ArrayList<Allotjament> llistaAllotjaments;
     public LlistaAllotjaments () {
 
@@ -35,6 +37,7 @@ public class LlistaAllotjaments implements InLlistaAllotjaments {
     @Override
     public String llistarAllotjaments(String estat) throws ExcepcioCamping {
         String result = "";
+        int cont = 0;
 
         Iterator<Allotjament> iterator = llistaAllotjaments.iterator();
 
@@ -42,22 +45,16 @@ public class LlistaAllotjaments implements InLlistaAllotjaments {
         while (iterator.hasNext()) {
             Allotjament allotjament = iterator.next();
 
-
-            switch (estat){
-                case "Tots":
-                    result += allotjament.toString() + "\n";
-                    break;
-                case "Operatiu":
-                    if(allotjament.getEstat()){
-                        result += allotjament.toString() + "\n";
-                    }
-                    break;
-                case "No Operatiu":
-                    if(!allotjament.getEstat()){
-                        result += allotjament.toString() + "\n";
-                    }
+            boolean operatiu = allotjament.getEstat();
+            if (estat.equals("Tots") || (estat.equals("Operatiu") && operatiu) || (estat.equals("NoOperatiu") && !operatiu)) {
+                result += allotjament.toString() + "\n";
+                cont ++;
             }
 
+
+        }
+        if (cont == 0) {
+            throw new ExcepcioCamping("No hi ha cap allotjament amb aquest estat.");
         }
         return result;
 
@@ -109,15 +106,8 @@ public class LlistaAllotjaments implements InLlistaAllotjaments {
             }
         }
     }
-    /*
-    public void actualitzaEstatAccessos() {
-        Iterator<Allotjament> iterator = llistaAllotjaments.iterator();
-        while (iterator.hasNext()) {
-            Allotjament allotjament = iterator.next();
-            if (allotjament.getId().equals(a.getId())) {
-
-            }
-        }
+    public ArrayList<Allotjament> getAllotjaments(){
+        return this.llistaAllotjaments;
     }
-     */
+
 }

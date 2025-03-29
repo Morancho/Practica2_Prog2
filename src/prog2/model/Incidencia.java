@@ -2,7 +2,9 @@ package prog2.model;
 
 import prog2.vista.ExcepcioCamping;
 
-public class Incidencia {
+import java.io.Serializable;
+
+public class Incidencia implements Serializable {
 
     public static enum TipusIncidencia {
         Reparacio,

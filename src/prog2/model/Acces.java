@@ -1,6 +1,8 @@
 package prog2.model;
 
-public abstract class Acces implements InAcces {
+import java.io.Serializable;
+
+public abstract class Acces implements InAcces, Serializable {
 
     private String nom;
     private boolean estat;
@@ -22,7 +24,7 @@ public abstract class Acces implements InAcces {
         this.nom = nom;
     }
 
-    public boolean isEstat() {
+    public boolean getEstat() {
         return estat;
     }
 

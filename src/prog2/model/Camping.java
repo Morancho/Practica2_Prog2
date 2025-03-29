@@ -1,13 +1,16 @@
 package prog2.model;
 import prog2.vista.*;
 
-import java.util.ArrayList;
+import java.io.*;
 
-public class Camping implements InCamping {
+import java.util.*;
+
+public class Camping implements InCamping, Serializable {
     private String nomCamping;
     LlistaAllotjaments llistaAllotjaments = new LlistaAllotjaments();
     LlistaIncidencies llistaIncidencies = new LlistaIncidencies();
     LlistaAccessos llistaAccessos = new LlistaAccessos();
+
 
 
 
@@ -23,17 +26,30 @@ public class Camping implements InCamping {
 
     @Override
     public String llistarAllotjaments(String estat) throws ExcepcioCamping {
-        return "";
+        return llistaAllotjaments.llistarAllotjaments(estat);
     }
+
+
+
+
 
     @Override
     public String llistarAccessos(String infoEstat) throws ExcepcioCamping {
-        return "";
+        if(infoEstat.equals("Obert")){
+            return llistaAccessos.llistarAccessos(true);
+        }
+        else if(infoEstat.equals("Tancat")){
+            return llistaAccessos.llistarAccessos(false);
+        }
+        else{
+            throw new ExcepcioCamping("No existeix l'estat: " + infoEstat);
+        }
+
     }
 
     @Override
     public String llistarIncidencies() throws ExcepcioCamping {
-        return "";
+        return llistaIncidencies.llistarIncidencies();
     }
 
     @Override
@@ -58,23 +74,31 @@ public class Camping implements InCamping {
 
     @Override
     public void eliminarIncidencia(int num) throws ExcepcioCamping {
+        try {
 
+
+            Incidencia inc = llistaIncidencies.getIncidencia(num);
+            llistaIncidencies.eliminarIncidencia(inc);
+            inc.getAllotjament().obrirAllotjament();
+            llistaAccessos.actualitzaEstatAccessos();
+        }
+        catch (ExcepcioCamping e) {
+            throw new ExcepcioCamping(e.getMessage());
+        }
     }
 
     @Override
     public int calculaAccessosAccessibles() {
-        return 0;
+        return llistaAccessos.calculaAccessosAccessibles();
     }
 
     @Override
     public float calculaMetresQuadratsAsfalt() {
-        return 0;
+        return llistaAccessos.calculaMetresQuadratsAsfalt();
     }
 
-    @Override
-    public void save(String camiDesti) throws ExcepcioCamping {
 
-    }
+
 
     @Override
     public void inicialitzaDadesCamping() {
@@ -234,6 +258,109 @@ public class Camping implements InCamping {
         Acc12.afegirAllotjament(ALL6);
 
 
+    }
+    @Override
+    public void save(String camiDesti) throws ExcepcioCamping {
+        File fitxer = new File(camiDesti+".txt");
+
+        // Guardar l'objecte serialitzat
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fitxer))) {
+            oos.writeObject(this);
+            System.out.println("Camping guardat correctament en " + camiDesti);
+        } catch (IOException e) {
+            throw new ExcepcioCamping("Error al guardar el camping: " + e.getMessage());
+        }
+
+        // Ruta per guardar l'arxiu .txt en el directori "prog2/model"
+        File fitxerText = new File("src/prog2/model/" + camiDesti + ".txt");
+
+        // Verificar si l'arxiu .txt ja existeiz+x
+        if (fitxerText.exists()) {
+            System.out.println("Archivo de texto encontrado: " + fitxerText.getName());
+        } else {
+            // Si no existeix, el creem.
+            try {
+                if (fitxerText.createNewFile()) {
+                    System.out.println("Archivo de texto creado: " + fitxerText.getName());
+                } else {
+                    System.out.println("Error al crear el archivo de texto.");
+                }
+            } catch (IOException e) {
+                throw new ExcepcioCamping("Error al crear el archivo de texto: " + e.getMessage());
+            }
+        }
+
+        // Escriure en el .txt
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(fitxerText, true))) {
+            // Escriure el nom del Camping
+            writer.write("Nom del Camping:");
+            writer.newLine();
+            writer.write(nomCamping);
+            writer.newLine();
+
+
+
+            // Guardar la llista d'allotjaments amb llistarAllotjaments
+            writer.write("Allotjaments:");
+            writer.newLine();
+            writer.write(llistarAllotjaments("Tots"));
+            writer.newLine();
+
+
+
+            // Guardar la llista d'accessos amb llistarAccessos
+            writer.write("Accessos:");
+            writer.newLine();
+            writer.write(llistarAccessos("Obert")); //
+            writer.newLine();
+
+
+
+
+            //Guardar les incidències amb llistarIncidencies
+            writer.write("Incidències:");
+            writer.newLine();
+            writer.write(llistarIncidencies());
+            writer.newLine();
+
+
+            System.out.println("Dades guardades correctament en " + fitxerText.getName());
+        } catch (IOException e) {
+            throw new ExcepcioCamping("Error al escriure al fitxer: " + e.getMessage());
+        }
+    }
+
+    public static Camping load(String camiOrigen) throws ExcepcioCamping {
+        Camping camping = null;
+        // completar el codi
+        FileInputStream fin = null;
+        ObjectInputStream ois = null;
+        try {
+            fin = new FileInputStream(camiOrigen+".txt");
+            ois = new ObjectInputStream(fin);
+            camping = (Camping) ois.readObject();
+
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        } catch (ClassNotFoundException e) {
+            throw new ExcepcioCamping("No s'ha trobat la classe camping al fitxer.");
+        } finally {
+            try {
+                if (fin != null)
+                    fin.close();
+            } catch (IOException e) {
+                System.out.println(e.getMessage());
+            }
+
+            try {
+                if (ois != null)
+                    ois.close();
+            } catch (IOException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+
+        return camping;
     }
 
 }
