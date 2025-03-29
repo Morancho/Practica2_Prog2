@@ -60,8 +60,11 @@ public class Bungalow extends Casa {
 
     @Override
     public String toString() {
-        return getNom() +"{placesParquing=" + placesParquing +
-                ", terrassa=" + terrassa + ", tv=" + tv + ", aireFred=" + aireFred + "}";
+        return super.toString().substring(0, super.toString().length() - 1) +
+                ", placesParquing=" + placesParquing +
+                ", terrassa=" + terrassa +
+                ", tv=" + tv +
+                ", aireFred=" + aireFred + "}";
     }
 
 }

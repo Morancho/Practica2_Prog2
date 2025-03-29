@@ -29,6 +29,7 @@ public class MobilHome extends Casa {
 
     @Override
     public String toString() {
-        return getNom() + "{id allotjament= " + getId()  +",terrassaAmbBarbacoa=" + terrassaAmbBarbacoa + "}";
+        return super.toString().substring(0, super.toString().length() - 1) +
+                ", terrassaAmbBarbacoa=" + terrassaAmbBarbacoa + "}";
     }
 }

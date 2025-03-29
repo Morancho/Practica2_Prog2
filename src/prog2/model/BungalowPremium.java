@@ -37,8 +37,7 @@ public class BungalowPremium extends Bungalow {
 
     @Override
     public String toString() {
-        String baseString = super.toString();
-        baseString = baseString.substring(0, baseString.length() - 1);
-        return baseString + ", serveisExtra=" + serveisExtra + ", codiWifi='" + codiWifi + "'}";
+        return super.toString().substring(0, super.toString().length() - 1) +
+                ", serveisExtra=" + serveisExtra + ", codiWifi='" + codiWifi + "'}";
     }
 }

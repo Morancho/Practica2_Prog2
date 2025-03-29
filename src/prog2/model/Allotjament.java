@@ -120,4 +120,11 @@ public abstract class Allotjament implements InAllotjament, Serializable {
         this.estat = true;
         this.iluminacio = "100%";
     }
+    @Override
+    public String toString() {
+        return getClass().getSimpleName() + " {Nom=" + getNom() + ", Id=" + getId() +
+                ", estada mínima en temp ALTA: " + getEstadaMinimaALTA() +
+                ", estada mínima en temp BAIXA: " + getEstadaMinimaBAIXA() + "}";
+    }
+
 }
