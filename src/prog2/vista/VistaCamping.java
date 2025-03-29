@@ -71,7 +71,6 @@ public class VistaCamping {
             // Demanem una opcio
             opcio=menu.getOpcio(sc);
 
-
             /*
             MENU_LLISTES,
             AFEGIR_INCIDENCIA,
@@ -82,7 +81,7 @@ public class VistaCamping {
             RECUPERAR_CAMPING,
             SORTIR
              */
-            // Fem les accions necessÃ ries
+
             switch(opcio) {
                 case MENU_LLISTES:
                     // Cridem el métode de gestió del menú secundari
@@ -91,7 +90,6 @@ public class VistaCamping {
                 case AFEGIR_INCIDENCIA:
                     break;
                 case ELIMINAR_INCIDENCIA:
-
                     break;
                 case TOTAL_ACCESSOS_COTXE:
                     System.out.println("Fins aviat!");
@@ -130,7 +128,6 @@ public class VistaCamping {
             // Demanem una opcio
             opcio=menu.getOpcio(sc);
 
-
             /*
             LLISTAR_ALLOTJAMENTS,
             LLISTAR_ALLOTJAMENTS_OPERATIUS,
@@ -144,23 +141,25 @@ public class VistaCamping {
             // Fem les accions necessàries
             switch(opcio) {
                 case LLISTAR_ALLOTJAMENTS:
+                    camping.llistarAllotjaments("Tots");
                     break;
                 case LLISTAR_ALLOTJAMENTS_OPERATIUS:
+                   camping.llistarAllotjaments("Operatiu");
                     break;
                 case LLISTAR_ALLOTJAMENTS_NO_OPERATIUS:
-                    System.out.println("Fins aviat!");
+                    camping.llistarAllotjaments("NoOperatiu");
                     break;
                 case LLISTAR_ACCESSOS_OBERTS:
-                    System.out.println("Fins aviat!");
+                    camping.llistarAccessos("Obert");
                     break;
                 case LLISTAR_ACCESSOS_TANCATS:
-                    System.out.println("Fins aviat!");
+                    camping.llistarAccessos("Tancat");
                     break;
                 case LLISTAR_INCIDENCIES:
-                    System.out.println("Fins aviat!");
+                    camping.llistarIncidencies();
                     break;
                 case MENU_SECUND_SORTIR:
-                    System.out.println("Fins aviat!");
+                    gestioMenuSecundari(sc);
                     break;
             }
 
