@@ -87,16 +87,26 @@ public class Menu<TEnum> {
         // Demanem una opció assegurant que sigui correcta
         int opcioInt=-1;
         do {
-            System.out.print("Entra una opcio >> ");
-            opcioInt=sc.nextInt();
-            sc.nextLine();
 
-            if(opcioInt>0 && opcioInt<=_llistaOpcions.length) {
-                // Passem de l'enter a una opcio i la retornem
-                opcio=_llistaOpcions[opcioInt-1];
-            } else {
-                System.err.println("La opció seleccionada no és correcta. Selecciona una opció entre 1 i " + (_llistaOpcions.length));
-            }
+                System.out.print("Entra una opcio >> ");
+                if(sc.hasNextInt()) {
+                    opcioInt=sc.nextInt();
+                    sc.nextLine();
+
+                    if(opcioInt>0 && opcioInt<=_llistaOpcions.length) {
+                        // Passem de l'enter a una opcio i la retornem
+                        opcio=_llistaOpcions[opcioInt-1];
+                    } else {
+                        System.err.println("La opció seleccionada no és correcta. Selecciona una opció entre 1 i " + (_llistaOpcions.length));
+                    }
+                }
+                else{
+                    System.err.println("La opció seleccionada no és correcta. Selecciona una opció entre 1 i " + (_llistaOpcions.length));
+                    sc.nextLine();
+                }
+
+
+
         } while(opcio==null);
 
         return opcio;
