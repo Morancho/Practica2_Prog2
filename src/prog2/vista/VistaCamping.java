@@ -52,12 +52,9 @@ public class VistaCamping {
         this.camping = new Camping(nomCamping);
     }
 
+    public void gestioCamping() {
 
-    /**
-     * Menú principal del reproductor d'audio
-     * @param sc Objecte de tipus Scanner que permet accedir al teclat
-     */
-    private void gestio(Scanner sc) {
+        Scanner sc = new Scanner(System.in);
 
         // Creem l'objecte per al menú. Li passem com a primer parà metre el nom del menú
         Menu<OpcionsMenuPrincipal> menu = new Menu<OpcionsMenuPrincipal>("Menu Principal", OpcionsMenuPrincipal.values());
@@ -116,11 +113,7 @@ public class VistaCamping {
         } while(opcio!= OpcionsMenuPrincipal.SORTIR);
     }
 
-    /**
-     * Menú secundari
-     * @param sc Objecte de tipus Scanner que permet accedir al teclat
-     */
-    private void gestioMenuSecundari(Scanner sc) {
+    public void gestioMenuSecundari(Scanner sc) {
 
         // Creem l'objecte per al menú. Li passem com a primer parÃ metre el nom del menú
         Menu<OpcionsMenuSecundari> menu = new Menu<OpcionsMenuSecundari>("Menu Secundari", OpcionsMenuSecundari.values());
@@ -172,16 +165,5 @@ public class VistaCamping {
             }
 
         } while(opcio!= OpcionsMenuSecundari.MENU_SECUND_SORTIR);
-    }
-
-
-    public void gestioCamping() {
-
-        String [] opcions =  {};
-
-        Menu<String> menu = new Menu<String>(camping.getNomCamping(), opcions);
-
-        menu.mostrarMenu();
-
     }
 }
