@@ -9,10 +9,11 @@ public abstract class Acces implements InAcces, Serializable {
     private boolean accessibilitat;
     private LlistaAllotjaments llistaAllotjaments;
 
-    public Acces(String nom, boolean estat) {
+    public Acces(String nom, boolean estat,boolean accessibilitat) {
         this.nom = nom;
         this.estat = estat;
         this.llistaAllotjaments = new LlistaAllotjaments(); // Inicializa la lista para evitar NullPointerException
+        this.accessibilitat = accessibilitat;
     }
 
     //Getters Setters
@@ -36,6 +37,7 @@ public abstract class Acces implements InAcces, Serializable {
     @Override
     public void afegirAllotjament(Allotjament allotjament) {
         llistaAllotjaments.afegirAllotjament(allotjament);
+
     }
 
     @Override
