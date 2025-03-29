@@ -100,14 +100,15 @@ public class VistaCamping {
                     String data = "";
 
                     try {
-                        System.out.print("\nIntrodueix el id de l'incidència: ");
-                        num = sc.nextInt();
-                        System.out.print("\nIntroduieix el tipus: Reparacio, Neteja, o Tancament: ");
-                        tipus = sc.next();
+
 
                         boolean idValid = false;
                         while (!idValid) {
-                            System.out.print("\nIntroduieix el id de l'allotjament o escriu 0 per sortir: ");
+                            System.out.print("\nIntrodueix el id de l'incidència: ");
+                            num = sc.nextInt();
+                            System.out.print("\nIntroduieix el tipus: Reparacio, Neteja, o Tancament: ");
+                            tipus = sc.next();
+                            System.out.print("\nIntroduieix el id de l'allotjament: ");
                             idAllotjament = sc.next();
                             if (idAllotjament.equals("0")) {
                                 break;
@@ -115,14 +116,15 @@ public class VistaCamping {
                             System.out.print("\nIntroduieix la data: ");
                             data = sc.next();
 
-                            // Intenta validar el ID. Si existe, continúa; si no, lanza error controlado
+                            // Intenta validar añadiendo incidencia, si no puede, lanza error controlado
                             try {
 
                                 camping.afegirIncidencia(num, tipus, idAllotjament, data);
                                 idValid = true;
                             } catch (ExcepcioCamping e) {
                                 System.out.println(e.getMessage());
-                                System.out.println("Si us plau, introdueix un ID vàlid.");
+                                break;
+
                             }
                         }
 
@@ -131,12 +133,25 @@ public class VistaCamping {
 
 
                     } catch (Exception e) {
-                        System.out.println("S'ha produït un error en afegir la incidència: " + e.getMessage());
+                        System.err.println("S'ha produït un error en afegir la incidència: " + e.getMessage());
                     }
                     break;
 
 
                 case ELIMINAR_INCIDENCIA:
+
+                    try {
+                        System.out.println("Introdueix l'id de l'incidencia a eliminar: ");
+                        num = sc.nextInt();
+                        camping.eliminarIncidencia(num);
+                    } catch(ExcepcioCamping  e){
+                        System.err.println(e.getMessage());
+
+                    } catch (Exception e) {
+                        System.err.println("S'ha produït un error en eliminar la incidència: " + e.getMessage());
+                        sc.next();
+                    }
+
                     break;
                 case TOTAL_ACCESSOS_COTXE:
                     System.out.println("Fins aviat!");
