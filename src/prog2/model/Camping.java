@@ -19,16 +19,34 @@ public class Camping implements InCamping, Serializable {
         this.nomCamping = nom;
     }
 
+    /**
+     * Retorna el nom del càmping.
+     * @return String
+     */
     @Override
     public String getNomCamping() {
         return nomCamping;
     }
 
+    /**
+     * Llista els allotjaments segons el seu estat.
+     * @param estat Estat dels allotjaments a llistar. (Operatiu, No Operatiu)
+     * @return String
+     * @throws ExcepcioCamping
+     * Excepció quan falla
+     */
     @Override
     public String llistarAllotjaments(String estat) throws ExcepcioCamping {
         return llistaAllotjaments.llistarAllotjaments(estat);
     }
 
+    /**
+     * Llista els accessos segons l'estat indicat.
+     * @param infoEstat Estat dels accessos a llistar. (Obert, Tancat)
+     * @return String
+     * @throws ExcepcioCamping
+     * Excepció quan falla
+     */
     @Override
     public String llistarAccessos(String infoEstat) throws ExcepcioCamping {
         if(infoEstat.equals("Obert")){
@@ -43,42 +61,67 @@ public class Camping implements InCamping, Serializable {
 
     }
 
+    /**
+     * Llista les incidències registrades al càmping.
+     * @return String
+     * @throws ExcepcioCamping
+     * Excepció quan falla
+     */
     @Override
     public String llistarIncidencies() throws ExcepcioCamping {
         return llistaIncidencies.llistarIncidencies();
     }
 
+    /**
+     * Afegeix una nova incidència al registre del càmping.
+     * @param num Número identificador de la incidència.
+     * @param tipus Tipus d'incidència (en format string)
+     * @param idAllotjament Identificador de l'allotjament afectat.
+     * @param data Data en què s'ha registrat la incidència.
+     * @throws ExcepcioCamping
+     * Excepció quan falla
+     */
     @Override
     public void afegirIncidencia(int num, String tipus, String idAllotjament, String data) throws ExcepcioCamping {
         System.out.println("Buscant allotjament amb ID: " + idAllotjament);
 
-        // Validamos si el ID del alojamiento existe antes de proceder
+        // Validem si l'ID de l'allotjament existeix abans de procedir
         Allotjament allotjament;
         try {
-            allotjament = llistaAllotjaments.getAllotjament(idAllotjament); // Llamada al método de búsqueda
+            allotjament = llistaAllotjaments.getAllotjament(idAllotjament); // Crida al mètode de buscar l'allotjament
         } catch (ExcepcioCamping e) {
-            // Mensaje claro para el usuario si el ID no existe
+            // Missatge per si l'allotjament amb aquest ID no existeix.
             throw new ExcepcioCamping("Error: No existeix l'allotjament amb id: " + idAllotjament + ". Si us plau, comprova el ID.");
         }
 
-        // Comprobar si ya existe una incidencia con el 'num' introducido
+        // Comprovar si ja existeix una incidència amb el 'num' introducció
         if (llistaIncidencies.getIncidencia(num) != null) {
-            throw new ExcepcioCamping("Error: Ja existeix una incidència amb l'id: " + num);
+            throw new ExcepcioCamping("Error: Ja existeix una incidència amb l'ID: " + num);
         }
 
-        // Añadimos la incidencia y actualizamos listas
+
+        // Afegim la incidència i actualitzem llistes
         llistaIncidencies.afegirIncidencia(num, tipus, allotjament, data);
         Incidencia inc = llistaIncidencies.getIncidencia(num);
         llistaAllotjaments.updateAllotjamentEstat(allotjament, inc);
         llistaAccessos.actualitzaEstatAccessos();
     }
 
+    /**
+     * Elimina una incidència existent identificada pel seu número.
+     * @param num Número identificador de la incidència a eliminar.
+     * @throws ExcepcioCamping
+     * Excepció quan incidència no existeix.
+     */
     @Override
     public void eliminarIncidencia(int num) throws ExcepcioCamping {
         try {
 
 
             Incidencia inc = llistaIncidencies.getIncidencia(num);
+            if (inc == null) {
+                throw new ExcepcioCamping("No existeix incidència amb id: " + num + ". Si us plau, comprova el ID.");
+            }
             llistaIncidencies.eliminarIncidencia(inc);
             inc.getAllotjament().obrirAllotjament();
             llistaAccessos.actualitzaEstatAccessos();
@@ -88,16 +131,27 @@ public class Camping implements InCamping, Serializable {
         }
     }
 
+    /**
+     * Calcula el nombre d'accessos accessibles al càmping.
+     * @return El nombre d'accessos accessibles. (int.)
+     */
     @Override
     public int calculaAccessosAccessibles() {
         return llistaAccessos.calculaAccessosAccessibles();
     }
 
+    /**
+     * Calcula la quantitat total de metres quadrats d'asfalt al càmping.
+     * @return La quantitat de metres quadrats d'asfalt. (float)
+     */
     @Override
     public float calculaMetresQuadratsAsfalt() {
         return llistaAccessos.calculaMetresQuadratsAsfalt();
     }
 
+    /**
+     * Inicialitza les dades del càmping amb valors predeterminats.
+     */
     @Override
     public void inicialitzaDadesCamping() {
 
@@ -259,6 +313,12 @@ public class Camping implements InCamping, Serializable {
 
     }
 
+    /**
+     * Guarda l'estat actual del càmping en un fitxer.
+     * @param camiDesti Ruta del fitxer de destinació.
+     * @throws ExcepcioCamping
+     * Excepció quan falla
+     */
     @Override
     public void save(String camiDesti) throws ExcepcioCamping {
         File fitxer = new File(camiDesti+".dat");
@@ -341,6 +401,13 @@ public class Camping implements InCamping, Serializable {
         }
     }
 
+    /**
+     * Carrega l'estat d'un càmping des d'un fitxer.
+     * @param camiOrigen Ruta del fitxer d'origen.
+     * @return Una instància de la classe Camping carregada des del fitxer.
+     * @throws ExcepcioCamping
+     * Excepció quan falla
+     */
     public static Camping load(String camiOrigen) throws ExcepcioCamping {
         Camping camp = null;
         // completar el codi

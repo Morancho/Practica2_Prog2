@@ -77,8 +77,8 @@ public class Menu<TEnum> {
     }
 
     /**
-     * Demana una opció utilitzant la entrada passada per paràmetre.
-     * @param sc Canal d'entrada utilitzat per a obtenir la opció
+     * Demana una opció utilitzant l'entrada passada per paràmetre.
+     * @param sc Canal d'entrada utilitzat per a obtenir l'opció
      * @return Opció seleccionada.
      */
     public TEnum getOpcio(Scanner sc) {
@@ -101,6 +101,7 @@ public class Menu<TEnum> {
                     }
                 }
                 else{
+
                     System.err.println("La opció seleccionada no és correcta. Selecciona una opció entre 1 i " + (_llistaOpcions.length));
                     sc.nextLine();
                 }

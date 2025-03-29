@@ -29,27 +29,49 @@ public abstract class Allotjament implements InAllotjament, Serializable {
     }
 
     //GETTERS SETTERS
+
+    /**
+     * Obté el nom de l'allotjament.
+     * @return el nom de l'allotjament.
+     */
     @Override
     public String getNom() {
         return nom;
     }
 
+    /**
+     * Estableix el nom de l'allotjament.
+     * @param nom el nom a assignar.
+     */
     @Override
     public void setNom(String nom) {
         this.nom = nom;
     }
 
+    /**
+     * Obté l'identificador únic de l'allotjament.
+     * @return l'identificador únic de l'allotjament.
+     */
     @Override
     public String getId() {
         return id;
     }
 
+    /**
+     * Estableix l'identificador únic de l'allotjament.
+     * @param id l'identificador a assignar.
+     */
     @Override
     public void setId(String id) {
         this.id = id;
 
     }
 
+    /**
+     * Obté l'estada mínima segons la temporada.
+     * @param temp la temporada (ALTA o BAIXA).
+     * @return el valor de l'estada mínima per a la temporada indicada.
+     */
     @Override
     public long getEstadaMinima(Temp temp) {
         switch (temp) {
@@ -62,12 +84,18 @@ public abstract class Allotjament implements InAllotjament, Serializable {
         }
     }
 
+    /**
+     * Estableix l'estada mínima per a cada temporada.
+     * @param estadaMinimaALTA_ l'estada mínima en temporada alta.
+     * @param estadaMinimaBAIXA_ l'estada mínima en temporada baixa.
+     */
     @Override
     public void setEstadaMinima(long estadaMinimaALTA_, long estadaMinimaBAIXA_) {
         this.estadaMinimaALTA = estadaMinimaALTA_;
         this.estadaMinimaBAIXA = estadaMinimaBAIXA_;
 
     }
+
     public long getEstadaMinimaBAIXA() {
         return estadaMinimaBAIXA;
     }
@@ -93,6 +121,11 @@ public abstract class Allotjament implements InAllotjament, Serializable {
     }
 
     //METODES ADICIONALS PRACTICA 2
+
+    /**
+     * Modifica l'estat de l'allotjament a No Operatiu i la il·luminació depenent de la incidència rebuda com a paràmetre
+     * @param in Objecte de tipus Incidencia.
+     */
     @Override
     public void tancarAllotjament(Incidencia in) {
         if (in != null) {
@@ -117,7 +150,9 @@ public abstract class Allotjament implements InAllotjament, Serializable {
         }
     }
 
-
+    /**
+     * Modifica l'estat de l'allotjament a Operatiu i la il·luminació al 100%
+     */
     @Override
     public void obrirAllotjament() {
         this.estat = true;

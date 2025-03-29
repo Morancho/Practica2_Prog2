@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class VistaCamping {
     Camping camping;
 
+
     static private enum OpcionsMenuPrincipal {
         MENU_LLISTES,
         AFEGIR_INCIDENCIA,
@@ -65,12 +66,13 @@ public class VistaCamping {
 
         // Obtenim una opció des del menú i fem les accions pertinents
         OpcionsMenuPrincipal opcio = null;
-
+        camping.inicialitzaDadesCamping();
         do {
             // Mostrem les opcions del menú
             menu.mostrarMenu();
 
             // Demanem una opcio
+
             opcio=menu.getOpcio(sc);
 
             /*
@@ -151,7 +153,7 @@ public class VistaCamping {
 
                     } catch (Exception e) {
                         System.err.println("S'ha produït un error en eliminar la incidència: " + e.getMessage());
-                        sc.next();
+
                         sc.nextLine();
                     }
 

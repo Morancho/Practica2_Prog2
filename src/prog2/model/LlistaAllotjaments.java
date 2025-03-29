@@ -13,27 +13,33 @@ public class LlistaAllotjaments implements InLlistaAllotjaments, Serializable {
         this.llistaAllotjaments = new ArrayList<>();
 
     }
+
+    /**
+     * Itera sobre la llista d'accessos, i pels accessos asfaltats suma els metres quadrats d'asfalt i ho retorna.
+     * @return float amb els metres quadrats d'asfalt.
+     * @throws prog2.vista.ExcepcioCamping Aquest mètode podria llançar una excepció si fos necessari.
+     */
     @Override
     public void afegirAllotjament(Allotjament allotjament) throws ExcepcioCamping {
         this.llistaAllotjaments.add(allotjament);
     }
 
+    /**
+     * Buida la llista d'allotjaments.
+     */
     @Override
     public void buidar() {
         this.llistaAllotjaments.clear();
 
     }
-    /*
-    El mètode llistarAllotjaments de la classe LlistaAllotjaments rep un String estat
-    que podrà ser "Operatiu", "No Operatiu" i "Tots".
 
-
-    Aquesta informació s'ha de traslladar a un boolean estatBoolean per
-    tal que al recòrrer la llista d'Allotjaments es pugui saber quins s'han
-    de seleccionar per concatenar la seva informació al String de return.
-
+    /**
+     * Itera sobre la llista d'allotjaments i retorna un String amb la informació de tots els allotjaments amb l'estat rebut per paràmetre.
+     * En cas que no hi hagi allotjaments en l'estat passat com a paràmetre llança una excepció.
+     * @param estat
+     * @return String
+     * @throws prog2.vista.ExcepcioCamping Aquest mètode llança una excepció en cas que no hi hagi allotjaments en l'estat passat com a paràmetre.
      */
-
     @Override
     public String llistarAllotjaments(String estat) throws ExcepcioCamping {
         String result = "";
@@ -60,6 +66,10 @@ public class LlistaAllotjaments implements InLlistaAllotjaments, Serializable {
 
     }
 
+    /**
+     * Mira si la llista d'allotjaments conté algun allotjament operatiu.
+     * @return boolean
+     */
     @Override
     public boolean containsAllotjamentOperatiu() {
 
@@ -76,11 +86,22 @@ public class LlistaAllotjaments implements InLlistaAllotjaments, Serializable {
         return trobat;
     }
 
+    /**
+     * Mira si la llista d'allotjaments conté l'allotjament rebut per paràmetre i retorna un booleà amb la informació.
+     * @param allotjament
+     * @return boolean
+     */
     @Override
     public boolean contains(Allotjament allotjament) {
         return llistaAllotjaments.contains(allotjament);
     }
 
+    /**
+     * Busca l'allotjament amb el nom rebut per paràmetre i el retorna. En cas que no existeixi llança una excepció.
+     * @param id String amb el id de l'allotjament
+     * @return  Objecte de tipus Allotjament
+     * @throws prog2.vista.ExcepcioCamping Aquest mètode podria llançar una excepció si fos necessari.
+     */
     @Override
     public  Allotjament getAllotjament(String id) throws ExcepcioCamping {
         Iterator<Allotjament> iterator = llistaAllotjaments.iterator();

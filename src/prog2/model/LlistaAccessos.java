@@ -20,7 +20,11 @@ public class LlistaAccessos implements InLlistaAccessos, Serializable {
 
 
 
-
+    /**
+     * Afegeix un accés rebut per paràmetre a la llista d'accessos.
+     * @param acc Objecte de tipus Acces.
+     * @throws prog2.vista.ExcepcioCamping Aquest mètode podria llançar una excepció si fos necessari.
+     */
     @Override
     public void afegirAcces(Acces acc) throws ExcepcioCamping {
 
@@ -28,12 +32,22 @@ public class LlistaAccessos implements InLlistaAccessos, Serializable {
 
     }
 
+    /**
+     * Buida la llista d'accessos
+     */
     @Override
     public void buidar() {
         llistaAccessos.clear();
 
     }
 
+    /**
+     * Itera sobre la llista d'accessos i retorna un String amb la informació de tots els accessos amb l'estat rebut per paràmetre.
+     * En cas que no hi hagi accessos en l'estat passat com a paràmetre llança una excepció.
+     * @param estat boolean
+     * @return String
+     * @throws prog2.vista.ExcepcioCamping Aquest mètode llança una excepció en cas que no hi hagi accessos en l'estat passat com a parametre.
+     */
     @Override
     public String llistarAccessos(boolean estat) throws ExcepcioCamping {
         String result = "";
@@ -67,6 +81,10 @@ public class LlistaAccessos implements InLlistaAccessos, Serializable {
         return false;
     }
 
+    /**
+     * Recorre tota la llista d'accessos i els tanca. Només decidirà obrir cadascun d'ells si permet l'accés a algun allotjament operatiu.
+     * @throws prog2.vista.ExcepcioCamping Aquest mètode podria llançar una excepció si fos necessari.
+     */
     @Override
     public void actualitzaEstatAccessos() throws ExcepcioCamping {
         Iterator<Acces> it = llistaAccessos.iterator();
@@ -90,6 +108,11 @@ public class LlistaAccessos implements InLlistaAccessos, Serializable {
         }
     }
 
+    /**
+     * Itera sobre la llista d'accessos i retorna el número d'accessos amb accessibilitat.
+     * @return int
+     * @throws prog2.vista.ExcepcioCamping Aquest mètode podria llançar una excepció si fos necessari.
+     */
     @Override
     public int calculaAccessosAccessibles() throws ExcepcioCamping {
         int num = 0;
@@ -103,6 +126,11 @@ public class LlistaAccessos implements InLlistaAccessos, Serializable {
         return num;
     }
 
+    /**
+     * Itera sobre la llista d'accessos, i pels accessos asfaltats suma els metres quadrats d'asfalt i ho retorna.
+     * @return float amb els metres quadrats d'asfalt.
+     * @throws prog2.vista.ExcepcioCamping Aquest mètode podria llançar una excepció si fos necessari.
+     */
     @Override
     public float calculaMetresQuadratsAsfalt() throws ExcepcioCamping {
         float num = 0.0f;
@@ -118,7 +146,5 @@ public class LlistaAccessos implements InLlistaAccessos, Serializable {
         return num;
     }
 
-    public ArrayList<Acces> getAccessos(){
-        return this.llistaAccessos;
-    }
+
 }

@@ -33,13 +33,19 @@ public abstract class Acces implements InAcces, Serializable {
         this.estat = estat;
     }
 
-    //Metodes implementats
+    /**
+     * Afegeix un allotjament rebut com a paràmetre a la llista d'allotjaments de l'accés
+     * @param allotjament = objecte de la classe allotjament
+     */
     @Override
     public void afegirAllotjament(Allotjament allotjament) {
         llistaAllotjaments.afegirAllotjament(allotjament);
 
     }
 
+    /**
+     * Canvia l'estat de l'accés a obert
+     */
     @Override
     public void tancarAcces() {
         this.estat = false;
@@ -50,7 +56,10 @@ public abstract class Acces implements InAcces, Serializable {
         this.estat = true;
     }
 
-
+    /**
+     * Retorna si l'accés permet accessibilitat amb cotxe o no.
+     * @return = True si és accessible amb cotxe, False si no.
+     */
     @Override
     public abstract boolean isAccessibilitat();
 
