@@ -29,10 +29,6 @@ public class Camping implements InCamping, Serializable {
         return llistaAllotjaments.llistarAllotjaments(estat);
     }
 
-
-
-
-
     @Override
     public String llistarAccessos(String infoEstat) throws ExcepcioCamping {
         if(infoEstat.equals("Obert")){
@@ -77,8 +73,6 @@ public class Camping implements InCamping, Serializable {
         llistaAccessos.actualitzaEstatAccessos();
     }
 
-
-
     @Override
     public void eliminarIncidencia(int num) throws ExcepcioCamping {
         try {
@@ -103,9 +97,6 @@ public class Camping implements InCamping, Serializable {
     public float calculaMetresQuadratsAsfalt() {
         return llistaAccessos.calculaMetresQuadratsAsfalt();
     }
-
-
-
 
     @Override
     public void inicialitzaDadesCamping() {
@@ -267,6 +258,7 @@ public class Camping implements InCamping, Serializable {
 
 
     }
+
     @Override
     public void save(String camiDesti) throws ExcepcioCamping {
         File fitxer = new File(camiDesti+".dat");
