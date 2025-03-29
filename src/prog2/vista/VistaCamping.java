@@ -218,22 +218,22 @@ public class VistaCamping {
             // Fem les accions necessàries
             switch(opcio) {
                 case LLISTAR_ALLOTJAMENTS:
-                    camping.llistarAllotjaments("Tots");
+                    System.out.println(camping.llistarAllotjaments("Tots"));
                     break;
                 case LLISTAR_ALLOTJAMENTS_OPERATIUS:
-                   camping.llistarAllotjaments("Operatiu");
+                    System.out.println(camping.llistarAllotjaments("Operatiu"));
                     break;
                 case LLISTAR_ALLOTJAMENTS_NO_OPERATIUS:
-                    camping.llistarAllotjaments("NoOperatiu");
+                    System.out.println(camping.llistarAllotjaments("NoOperatiu"));
                     break;
                 case LLISTAR_ACCESSOS_OBERTS:
-                    camping.llistarAccessos("Obert");
+                    System.out.println(camping.llistarAccessos("Obert"));
                     break;
                 case LLISTAR_ACCESSOS_TANCATS:
-                    camping.llistarAccessos("Tancat");
+                    System.out.println(camping.llistarAccessos("Tancat"));
                     break;
                 case LLISTAR_INCIDENCIES:
-                    camping.llistarIncidencies();
+                    System.out.println(camping.llistarIncidencies());
                     break;
                 case MENU_SECUND_SORTIR:
 
