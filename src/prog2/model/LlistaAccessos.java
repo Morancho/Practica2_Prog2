@@ -55,6 +55,17 @@ public class LlistaAccessos implements InLlistaAccessos, Serializable {
         }
         return result;
     }
+    public boolean containtAccesosEstat(boolean estat){
+        Iterator<Acces> it = llistaAccessos.iterator();
+        while(it.hasNext()){
+            Acces acc = it.next();
+
+            if(acc.getEstat() == estat){
+                return true;
+            }
+        }
+        return false;
+    }
 
     @Override
     public void actualitzaEstatAccessos() throws ExcepcioCamping {
@@ -67,7 +78,7 @@ public class LlistaAccessos implements InLlistaAccessos, Serializable {
             Iterator<Allotjament> it2 = llistaAllotjaments.getAllotjaments().iterator();
             while(it2.hasNext()) {
                 Allotjament allotjament = it2.next();
-                System.out.println(allotjament.getNom() + ".............."+ allotjament.getEstat());
+
                 if(!allotjament.getEstat()){
 
                     oper = false;

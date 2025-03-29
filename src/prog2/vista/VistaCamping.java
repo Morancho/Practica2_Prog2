@@ -65,7 +65,7 @@ public class VistaCamping {
 
         // Obtenim una opció des del menú i fem les accions pertinents
         OpcionsMenuPrincipal opcio = null;
-        camping.inicialitzaDadesCamping();
+
         do {
             // Mostrem les opcions del menú
             menu.mostrarMenu();

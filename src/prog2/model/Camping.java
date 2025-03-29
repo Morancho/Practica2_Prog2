@@ -282,19 +282,19 @@ public class Camping implements InCamping, Serializable {
         // Ruta per guardar l'arxiu .txt en el directori "prog2/model"
         File fitxerText = new File("src/prog2/model/" + camiDesti + ".txt");
 
-        // Verificar si l'arxiu .txt ja existeiz+x
+        // Verificar si l'arxiu .txt ja existeix+x
         if (fitxerText.exists()) {
-            System.out.println("Archivo de texto encontrado: " + fitxerText.getName());
+            System.out.println("Arxiu de text trobat: " + fitxerText.getName());
         } else {
             // Si no existeix, el creem.
             try {
                 if (fitxerText.createNewFile()) {
-                    System.out.println("Archivo de texto creado: " + fitxerText.getName());
+                    System.out.println("Arxiu de text creat: " + fitxerText.getName());
                 } else {
-                    System.out.println("Error al crear el archivo de texto.");
+                    System.out.println("Error al crear l'arxiu de text.");
                 }
             } catch (IOException e) {
-                throw new ExcepcioCamping("Error al crear el archivo de texto: " + e.getMessage());
+                throw new ExcepcioCamping("Error al crear l'arxiu de text: " + e.getMessage());
             }
         }
 
@@ -319,8 +319,13 @@ public class Camping implements InCamping, Serializable {
             // Guardar la llista d'accessos amb llistarAccessos
             writer.write("Accessos:");
             writer.newLine();
-            writer.write(llistarAccessos("Obert"));
-            writer.write(llistarAccessos("Tancat"));
+            if(llistaAccessos.containtAccesosEstat(true)){
+                writer.write(llistarAccessos("Obert"));
+            }
+            if(llistaAccessos.containtAccesosEstat(false)){
+                writer.write(llistarAccessos("Tancat"));
+            }
+
             writer.newLine();
 
 
