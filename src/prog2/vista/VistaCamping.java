@@ -107,7 +107,7 @@ public class VistaCamping {
 
                         boolean idValid = false;
                         while (!idValid) {
-                            System.out.print("\nIntroduieix el id de l'allotjament o escriu 0 per sortir.: ");
+                            System.out.print("\nIntroduieix el id de l'allotjament o escriu 0 per sortir: ");
                             idAllotjament = sc.next();
                             if (idAllotjament.equals("0")) {
                                 break;
@@ -206,7 +206,7 @@ public class VistaCamping {
                     camping.llistarIncidencies();
                     break;
                 case MENU_SECUND_SORTIR:
-                    gestioMenuSecundari(sc);
+
                     break;
             }
 
