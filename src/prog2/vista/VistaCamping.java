@@ -54,7 +54,7 @@ public class VistaCamping {
 
     public void gestioCamping() {
 
-        camping.inicialitzaDadesCamping();
+
         Scanner sc = new Scanner(System.in);
 
         // Creem l'objecte per al menú. Li passem com a primer parà metre el nom del menú
@@ -65,6 +65,7 @@ public class VistaCamping {
 
         // Obtenim una opció des del menú i fem les accions pertinents
         OpcionsMenuPrincipal opcio = null;
+        camping.inicialitzaDadesCamping();
         do {
             // Mostrem les opcions del menú
             menu.mostrarMenu();
@@ -89,20 +90,52 @@ public class VistaCamping {
                     gestioMenuSecundari(sc);
                     break;
                 case AFEGIR_INCIDENCIA:
+
+                    System.out.println("\nAquests són els allotjaments disponibles:");
+                    System.out.println(camping.llistarAllotjaments("Tots")); // Muestra los IDs disponibles
+
+                    int num = -1;
+                    String tipus = "";
+                    String idAllotjament = "";
+                    String data = "";
+
                     try {
                         System.out.print("\nIntrodueix el id de l'incidència: ");
-                        int num = sc.nextInt();
+                        num = sc.nextInt();
                         System.out.print("\nIntroduieix el tipus: Reparacio, Neteja, o Tancament: ");
-                        String tipus = sc.next();
-                        System.out.print("\nIntroduieix el id de l'allotjament: ");
-                        String idAllotjament = sc.next();
-                        System.out.print("\nIntroduieix la data: ");
-                        String data = sc.next();
-                        camping.afegirIncidencia(num, tipus, idAllotjament, data);
-                    } catch (ExcepcioCamping e) {
-                        System.out.println("Error: No s'ha trobat l'allotjament");
+                        tipus = sc.next();
+
+                        boolean idValid = false;
+                        while (!idValid) {
+                            System.out.print("\nIntroduieix el id de l'allotjament o escriu 0 per sortir.: ");
+                            idAllotjament = sc.next();
+                            if (idAllotjament.equals("0")) {
+                                break;
+                            }
+                            System.out.print("\nIntroduieix la data: ");
+                            data = sc.next();
+
+                            // Intenta validar el ID. Si existe, continúa; si no, lanza error controlado
+                            try {
+
+                                camping.afegirIncidencia(num, tipus, idAllotjament, data);
+                                idValid = true;
+                            } catch (ExcepcioCamping e) {
+                                System.out.println(e.getMessage());
+                                System.out.println("Si us plau, introdueix un ID vàlid.");
+                            }
+                        }
+
+
+
+
+
+                    } catch (Exception e) {
+                        System.out.println("S'ha produït un error en afegir la incidència: " + e.getMessage());
                     }
                     break;
+
+
                 case ELIMINAR_INCIDENCIA:
                     break;
                 case TOTAL_ACCESSOS_COTXE:

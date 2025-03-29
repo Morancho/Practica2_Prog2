@@ -14,7 +14,10 @@ public class LlistaIncidencies implements InLlistaIncidencies, Serializable {
     }
     @Override
     public void afegirIncidencia(int num, String tipus, Allotjament allotjament, String data) throws ExcepcioCamping {
+
+
         if(!isAllotjament(allotjament)){
+
             Incidencia incidencia = new Incidencia(num,allotjament,tipus,data);
             llistaIncidencies.add(incidencia);
         }

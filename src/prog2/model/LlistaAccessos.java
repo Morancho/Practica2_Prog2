@@ -13,6 +13,12 @@ public class LlistaAccessos implements InLlistaAccessos, Serializable {
 
     private Acces acc;
     private ArrayList<Acces> llistaAccessos;
+    public LlistaAccessos() {
+        // Inicializamos la lista para evitar NullPointerException
+        this.llistaAccessos = new ArrayList<>();
+    }
+
+
 
 
     @Override

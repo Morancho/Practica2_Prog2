@@ -19,7 +19,7 @@ public class Incidencia implements Serializable {
     private TipusIncidencia tipus;
 
     // Constructor
-    public Incidencia(int numero, Allotjament allotjament, String data, String tipus) {
+    public Incidencia(int numero, Allotjament allotjament, String tipus, String data) {
         this.numero = numero;
         this.allotjament = allotjament;
         this.data = data;

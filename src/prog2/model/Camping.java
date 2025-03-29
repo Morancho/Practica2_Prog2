@@ -54,23 +54,30 @@ public class Camping implements InCamping, Serializable {
 
     @Override
     public void afegirIncidencia(int num, String tipus, String idAllotjament, String data) throws ExcepcioCamping {
-        Allotjament allotjament = llistaAllotjaments.getAllotjament(idAllotjament);
+        System.out.println("Buscant allotjament amb ID: " + idAllotjament);
 
-        if(allotjament != null || !llistaAllotjaments.contains(allotjament)){
-            throw new ExcepcioCamping("No existeix l'allotjament amb id: " + idAllotjament);
-        } else if (llistaIncidencies.getIncidencia(num) != null) {
-            throw new ExcepcioCamping("Ja existeix una incidencia amb l'id: " + num);
-
-        } else{
-            llistaIncidencies.afegirIncidencia(num, tipus, allotjament, data);
-
-            Incidencia inc = llistaIncidencies.getIncidencia(num);
-            llistaAllotjaments.updateAllotjamentEstat(allotjament,inc);
-
-            llistaAccessos.actualitzaEstatAccessos(); //Cambie LlistaAllotjaments per LlistaAccessos par mi tiene sentido
-
+        // Validamos si el ID del alojamiento existe antes de proceder
+        Allotjament allotjament;
+        try {
+            allotjament = llistaAllotjaments.getAllotjament(idAllotjament); // Llamada al método de búsqueda
+        } catch (ExcepcioCamping e) {
+            // Mensaje claro para el usuario si el ID no existe
+            throw new ExcepcioCamping("Error: No existeix l'allotjament amb id: " + idAllotjament + ". Si us plau, comprova el ID.");
         }
+
+        // Comprobar si ya existe una incidencia con el 'num' introducido
+        if (llistaIncidencies.getIncidencia(num) != null) {
+            throw new ExcepcioCamping("Error: Ja existeix una incidència amb l'id: " + num);
+        }
+
+        // Añadimos la incidencia y actualizamos listas
+        llistaIncidencies.afegirIncidencia(num, tipus, allotjament, data);
+        Incidencia inc = llistaIncidencies.getIncidencia(num);
+        llistaAllotjaments.updateAllotjamentEstat(allotjament, inc);
+        llistaAccessos.actualitzaEstatAccessos();
     }
+
+
 
     @Override
     public void eliminarIncidencia(int num) throws ExcepcioCamping {
@@ -103,7 +110,7 @@ public class Camping implements InCamping, Serializable {
     @Override
     public void inicialitzaDadesCamping() {
 
-        llistaAccessos.buidar();
+
 
         float asfalt = 200;
         Acces Acc1 = new CamiAsfaltat("A1", true, asfalt);
@@ -256,6 +263,7 @@ public class Camping implements InCamping, Serializable {
         Acc10.afegirAllotjament(ALL2);
         Acc11.afegirAllotjament(ALL6);
         Acc12.afegirAllotjament(ALL6);
+
 
 
     }
