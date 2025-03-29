@@ -35,8 +35,7 @@ public class Parcela extends Allotjament {
 
     @Override
     public String toString() {
-        return "Nom=" + getNom() + ", Id=" + getId() + ", estada mínima en temp ALTA: "
-                + getEstadaMinimaALTA() + ", estada mínima en temp BAIXA: "
-                + getEstadaMinimaBAIXA() + ". Parcela{mida=" + mida + ", connexioElectrica=" + connexioElectrica + "}";
+        return super.toString().substring(0, super.toString().length() - 1) +
+                ", mida=" + mida + ", connexioElectrica=" + connexioElectrica + "}";
     }
 }
