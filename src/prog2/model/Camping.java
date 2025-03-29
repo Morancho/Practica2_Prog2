@@ -269,7 +269,7 @@ public class Camping implements InCamping, Serializable {
     }
     @Override
     public void save(String camiDesti) throws ExcepcioCamping {
-        File fitxer = new File(camiDesti+".txt");
+        File fitxer = new File(camiDesti+".dat");
 
         // Guardar l'objecte serialitzat
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fitxer))) {
@@ -326,10 +326,14 @@ public class Camping implements InCamping, Serializable {
 
 
             //Guardar les incidències amb llistarIncidencies
-            writer.write("Incidències:");
-            writer.newLine();
-            writer.write(llistarIncidencies());
-            writer.newLine();
+            if(!llistaIncidencies.getIncidencies().isEmpty()) {
+                writer.write("Incidències:");
+                writer.newLine();
+
+                writer.write(llistarIncidencies());
+                writer.newLine();
+            }
+
 
 
             System.out.println("Dades guardades correctament en " + fitxerText.getName());
@@ -345,7 +349,7 @@ public class Camping implements InCamping, Serializable {
         ObjectInputStream ois = null;
 
         try {
-            fin = new FileInputStream(camiOrigen+".txt");
+            fin = new FileInputStream(camiOrigen+".dat");
             ois = new ObjectInputStream(fin);
             camp = (Camping) ois.readObject();
 

@@ -91,8 +91,7 @@ public class VistaCamping {
                     break;
                 case AFEGIR_INCIDENCIA:
 
-                    System.out.println("\nAquests són els allotjaments disponibles:");
-                    System.out.println(camping.llistarAllotjaments("Tots")); // Muestra los IDs disponibles
+
 
                     int num = -1;
                     String tipus = "";
@@ -123,6 +122,7 @@ public class VistaCamping {
                                 idValid = true;
                             } catch (ExcepcioCamping e) {
                                 System.out.println(e.getMessage());
+                                sc.nextLine();
                                 break;
 
                             }
@@ -134,6 +134,7 @@ public class VistaCamping {
 
                     } catch (Exception e) {
                         System.err.println("S'ha produït un error en afegir la incidència: " + e.getMessage());
+                        sc.nextLine();
                     }
                     break;
 
@@ -146,28 +147,42 @@ public class VistaCamping {
                         camping.eliminarIncidencia(num);
                     } catch(ExcepcioCamping  e){
                         System.err.println(e.getMessage());
+                        sc.nextLine();
 
                     } catch (Exception e) {
                         System.err.println("S'ha produït un error en eliminar la incidència: " + e.getMessage());
                         sc.next();
+                        sc.nextLine();
                     }
 
                     break;
                 case TOTAL_ACCESSOS_COTXE:
-                    System.out.println("Fins aviat!");
+                    System.out.println("El numero d'accesssos accessibles amb cotxe es: " + camping.calculaAccessosAccessibles());
+
                     break;
                 case METRES_QUADRATS_ASFALTAT:
-                    System.out.println("Fins aviat!");
+                    System.out.println("El numero total de metres quadrats d'asfalt són: " + camping.calculaMetresQuadratsAsfalt());
                     break;
                 case GUARDAR_CAMPING:
-                    System.out.println("Fins aviat!");
+                    System.out.println("Introdueix el nom del fitxer:");
+                    String nomFitxer = sc.nextLine();
+                    try {
+                        camping.save(nomFitxer);
+                    } catch (ExcepcioCamping e) {
+                        throw new RuntimeException(e);
+                    }
                     break;
                 case RECUPERAR_CAMPING:
-                    System.out.println("Fins aviat!");
+
+                    System.out.println("Introdueix el nom del fitxer:");
+                    nomFitxer = sc.nextLine();
+                    camping=Camping.load(nomFitxer);
+
                     break;
                 case SORTIR:
                     System.out.println("Fins aviat!");
                     break;
+
             }
 
         } while(opcio!= OpcionsMenuPrincipal.SORTIR);

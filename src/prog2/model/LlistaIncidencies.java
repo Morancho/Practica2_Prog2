@@ -12,6 +12,9 @@ public class LlistaIncidencies implements InLlistaIncidencies, Serializable {
     public LlistaIncidencies() {
         llistaIncidencies = new ArrayList<>();
     }
+    public ArrayList<Incidencia> getIncidencies(){
+        return this.llistaIncidencies;
+    }
     @Override
     public void afegirIncidencia(int num, String tipus, Allotjament allotjament, String data) throws ExcepcioCamping {
 
