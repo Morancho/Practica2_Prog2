@@ -331,25 +331,30 @@ public class Camping implements InCamping, Serializable {
     }
 
     public static Camping load(String camiOrigen) throws ExcepcioCamping {
-        Camping camping = null;
+        Camping camp = null;
         // completar el codi
         FileInputStream fin = null;
         ObjectInputStream ois = null;
+
         try {
             fin = new FileInputStream(camiOrigen+".txt");
             ois = new ObjectInputStream(fin);
-            camping = (Camping) ois.readObject();
+            camp = (Camping) ois.readObject();
 
         } catch (IOException e) {
             System.out.println(e.getMessage());
+
+
         } catch (ClassNotFoundException e) {
             throw new ExcepcioCamping("No s'ha trobat la classe camping al fitxer.");
+
         } finally {
             try {
                 if (fin != null)
                     fin.close();
             } catch (IOException e) {
                 System.out.println(e.getMessage());
+
             }
 
             try {
@@ -360,7 +365,7 @@ public class Camping implements InCamping, Serializable {
             }
         }
 
-        return camping;
+        return camp;
     }
 
 }
