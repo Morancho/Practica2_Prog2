@@ -2,10 +2,23 @@ package prog2.vista;
 
 import prog2.model.Camping;
 
+import java.util.Scanner;
+
 public class VistaCamping {
     Camping camping;
 
     static private enum OpcionsMenuPrincipal {
+        MENU_LLISTES,
+        AFEGIR_INCIDENCIA,
+        ELIMINAR_INCIDENCIA,
+        TOTAL_ACCESSOS_COTXE,
+        METRES_QUADRATS_ASFALTAT,
+        GUARDAR_CAMPING,
+        RECUPERAR_CAMPING,
+        SORTIR
+    };
+
+    static private enum OpcionsMenuSecundari {
         LLISTAR_ALLOTJAMENTS,
         LLISTAR_ALLOTJAMENTS_OPERATIUS,
         LLISTAR_ALLOTJAMENTS_NO_OPERATIUS,
@@ -15,9 +28,92 @@ public class VistaCamping {
         MENU_SECUND_SORTIR
     };
 
+    // Declarem descripcions personalitzades per a les opcions del menú principal
+    static private String[] MenuPrincipal={
+            "SubMenu de llistes",
+            "Afegir una incidència",
+            "Eliminar una incidència",
+            "Calcular i mostrar el número total d’accessos que proporcionen accessibilitat amb cotxe",
+            "Calcular i mostrar el número total de metres quadrats d’asfalt dels accessos asfaltats",
+            "Guardar càmping",
+            "Recuperar càmping",
+            "Sortir de l’aplicació"};
+
+    // Declarem descripcions personalitzades per a les opcions del menú secundari
+    static private String[] MenuSecundari={
+            "Llistar la informació de tots els allotjaments",
+            "Llistar la informació dels allotjaments operatius",
+            "Llistar la informació dels allotjaments no operatius",
+            "Llistar la informació dels accessos oberts",
+            "Llistar la informació dels accessos tancats",
+            "Llistar la informació de les incidències actuals"};
 
     public VistaCamping(String nomCamping) {
         this.camping = new Camping(nomCamping);
+    }
+
+
+    /**
+     * Menú principal del reproductor d'audio
+     * @param sc Objecte de tipus Scanner que permet accedir al teclat
+     */
+    private void gestio(Scanner sc) {
+
+        // Creem l'objecte per al menú. Li passem com a primer parà metre el nom del menú
+        Menu<OpcionsMenuPrincipal> menu=new Menu<OpcionsMenuPrincipal>("Menu Principal", OpcionsMenuPrincipal.values());
+
+        // Assignem la descripció de les opcions
+        menu.setDescripcions(MenuPrincipal);
+
+        // Obtenim una opció des del menú i fem les accions pertinents
+        OpcionsMenuPrincipal opcio = null;
+        do {
+            // Mostrem les opcions del menú
+            menu.mostrarMenu();
+
+            // Demanem una opcio
+            opcio=menu.getOpcio(sc);
+
+
+            /*
+            MENU_LLISTES,
+            AFEGIR_INCIDENCIA,
+            ELIMINAR_INCIDENCIA,
+            TOTAL_ACCESSOS_COTXE,
+            METRES_QUADRATS_ASFALTAT,
+            GUARDAR_CAMPING,
+            RECUPERAR_CAMPING,
+            SORTIR
+             */
+            // Fem les accions necessÃ ries
+            switch(opcio) {
+                case MENU_LLISTES:
+                    // Cridem el métode de gestió del menú secundari
+                    gestioMenuSecundari(sc);
+                    break;
+                case AFEGIR_INCIDENCIA:
+                    break;
+                case ELIMINAR_INCIDENCIA:
+
+                    break;
+                case TOTAL_ACCESSOS_COTXE:
+                    System.out.println("Fins aviat!");
+                    break;
+                case METRES_QUADRATS_ASFALTAT:
+                    System.out.println("Fins aviat!");
+                    break;
+                case GUARDAR_CAMPING:
+                    System.out.println("Fins aviat!");
+                    break;
+                case RECUPERAR_CAMPING:
+                    System.out.println("Fins aviat!");
+                    break;
+                case SORTIR:
+                    System.out.println("Fins aviat!");
+                    break;
+            }
+
+        } while(opcio!= OpcionsMenuPrincipal.SORTIR);
     }
 
     public void gestioCamping() {
