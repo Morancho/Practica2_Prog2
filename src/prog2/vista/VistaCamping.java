@@ -218,56 +218,80 @@ public class VistaCamping {
             // Fem les accions necessàries
             switch(opcio) {
                 case LLISTAR_ALLOTJAMENTS:
-                    String allotjaments = camping.llistarAllotjaments("Tots");
-                    if (allotjaments.isEmpty()) {
-                        System.out.println("No hi ha allotjaments disponibles.");
-                    } else {
-                        System.out.println(allotjaments);
+                    try {
+                        String allotjaments = camping.llistarAllotjaments("Tots");
+                        if (allotjaments.isEmpty()) {
+                            System.out.println("No hi ha allotjaments disponibles.");
+                        } else {
+                            System.out.println(allotjaments);
+                        }
+                    } catch (Exception e) {
+                        System.err.println("S'ha produït un error en llistar allotjaments: " + e.getMessage());
                     }
                     break;
 
                 case LLISTAR_ALLOTJAMENTS_OPERATIUS:
-                    String allotjamentsOperatius = camping.llistarAllotjaments("Operatiu");
-                    if (allotjamentsOperatius.isEmpty()) {
-                        System.out.println("No hi ha allotjaments operatius.");
-                    } else {
-                        System.out.println(allotjamentsOperatius);
+                    try {
+                        String allotjamentsOperatius = camping.llistarAllotjaments("Operatiu");
+                        if (allotjamentsOperatius.isEmpty()) {
+                            System.out.println("No hi ha allotjaments operatius.");
+                        } else {
+                            System.out.println(allotjamentsOperatius);
+                        }
+                    } catch (Exception e) {
+                        System.err.println("S'ha produït un error en llistar allotjaments operatius: " + e.getMessage());
                     }
                     break;
 
                 case LLISTAR_ALLOTJAMENTS_NO_OPERATIUS:
-                    String allotjamentsNoOperatius = camping.llistarAllotjaments("NoOperatiu");
-                    if (allotjamentsNoOperatius.isEmpty()) {
-                        System.out.println("No hi ha allotjaments no operatius.");
-                    } else {
-                        System.out.println(allotjamentsNoOperatius);
+                    try {
+                        String allotjamentsNoOperatius = camping.llistarAllotjaments("NoOperatiu");
+                        if (allotjamentsNoOperatius.isEmpty()) {
+                            System.out.println("No hi ha allotjaments no operatius.");
+                        } else {
+                            System.out.println(allotjamentsNoOperatius);
+                        }
+                    } catch (Exception e) {
+                        System.err.println("S'ha produït un error en llistar allotjaments no operatius: " + e.getMessage());
                     }
                     break;
 
                 case LLISTAR_ACCESSOS_OBERTS:
-                    String accessosOberts = camping.llistarAccessos("Obert");
-                    if (accessosOberts.isEmpty()) {
-                        System.out.println("No hi ha accessos oberts.");
-                    } else {
-                        System.out.println(accessosOberts);
+                    try {
+                        String accessosOberts = camping.llistarAccessos("Obert");
+                        if (accessosOberts.isEmpty()) {
+                            System.out.println("No hi ha accessos oberts.");
+                        } else {
+                            System.out.println(accessosOberts);
+                        }
+                    } catch (Exception e) {
+                        System.err.println("S'ha produït un error en llistar accessos oberts: " + e.getMessage());
                     }
                     break;
 
                 case LLISTAR_ACCESSOS_TANCATS:
-                    String accessosTancats = camping.llistarAccessos("Tancat");
-                    if (accessosTancats.isEmpty()) {
-                        System.out.println("No hi ha accessos tancats.");
-                    } else {
-                        System.out.println(accessosTancats);
+                    try {
+                        String accessosTancats = camping.llistarAccessos("Tancat");
+                        if (accessosTancats.isEmpty()) {
+                            System.out.println("No hi ha accessos tancats.");
+                        } else {
+                            System.out.println(accessosTancats);
+                        }
+                    } catch (Exception e) {
+                        System.err.println("S'ha produït un error en llistar accessos tancats: " + e.getMessage());
                     }
                     break;
 
                 case LLISTAR_INCIDENCIES:
-                    String incidencies = camping.llistarIncidencies();
-                    if (incidencies.isEmpty()) {
-                        System.out.println("No hi ha incidències registrades.");
-                    } else {
-                        System.out.println(incidencies);
+                    try {
+                        String incidencies = camping.llistarIncidencies();
+                        if (incidencies.isEmpty()) {
+                            System.out.println("No hi ha incidències registrades.");
+                        } else {
+                            System.out.println(incidencies);
+                        }
+                    } catch (Exception e) {
+                        System.err.println("S'ha produït un error en llistar incidències: " + e.getMessage());
                     }
                     break;
 
