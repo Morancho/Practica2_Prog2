@@ -311,7 +311,8 @@ public class Camping implements InCamping, Serializable {
             // Guardar la llista d'accessos amb llistarAccessos
             writer.write("Accessos:");
             writer.newLine();
-            writer.write(llistarAccessos("Obert")); //
+            writer.write(llistarAccessos("Obert"));
+            writer.write(llistarAccessos("Tancat"));
             writer.newLine();
 
 
@@ -329,6 +330,7 @@ public class Camping implements InCamping, Serializable {
 
 
             System.out.println("Dades guardades correctament en " + fitxerText.getName());
+
         } catch (IOException e) {
             throw new ExcepcioCamping("Error al escriure al fitxer: " + e.getMessage());
         }

@@ -5,8 +5,8 @@ public abstract class AccesAsfaltat extends Acces {
     private float areaAsfalt;
 
     // Constructor
-    public AccesAsfaltat(String nom, boolean estat, float areaAsfalt) {
-        super(nom, estat);
+    public AccesAsfaltat(String nom, boolean estat, float areaAsfalt, boolean accessibilitat) {
+        super(nom, estat, accessibilitat);
         this.areaAsfalt = areaAsfalt;
     }
 

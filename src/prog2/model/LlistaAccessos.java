@@ -61,20 +61,21 @@ public class LlistaAccessos implements InLlistaAccessos, Serializable {
         Iterator<Acces> it = llistaAccessos.iterator();
 
         while(it.hasNext()) {
-            boolean oper = false;
+            boolean oper = true;
             Acces acc = it.next();
             LlistaAllotjaments llistaAllotjaments = acc.getllistaAllotjament();
             Iterator<Allotjament> it2 = llistaAllotjaments.getAllotjaments().iterator();
             while(it2.hasNext()) {
                 Allotjament allotjament = it2.next();
-                if(allotjament.getEstat()){
-                    oper = true;
-                    break;
+                System.out.println(allotjament.getNom() + ".............."+ allotjament.getEstat());
+                if(!allotjament.getEstat()){
+
+                    oper = false;
                 }
             }
             acc.setEstat(oper);
 
-            System.out.println("Accessos actualitzats correctament.\n");
+
         }
     }
 
@@ -84,7 +85,7 @@ public class LlistaAccessos implements InLlistaAccessos, Serializable {
         Iterator<Acces> it = llistaAccessos.iterator();
         while(it.hasNext()) {
             Acces acc = it.next();
-            if(acc.getEstat()){
+            if(acc.isAccessibilitat()){
                 num++;
             }
         }
