@@ -96,17 +96,20 @@ public abstract class Allotjament implements InAllotjament, Serializable {
     @Override
     public void tancarAllotjament(Incidencia in) {
         if (in != null) {
-            this.estat = false;
+
 
             switch (in.getTipus()) {
                 case Reparacio:
                     this.iluminacio = "0%";  // Apagar la llum si és una reparació
+                    this.estat = false;
                     break;
                 case Neteja:
                     this.iluminacio = "50%";  // Reduir la il·luminació si és per neteja
+                    this.estat = false;
                     break;
                 case Tancament:
                     this.iluminacio = "50%";  // Per tancament, reduir la il·luminació
+                    this.estat = false;
                     break;
                 default:
                     throw new ExcepcioCamping("Tipus de incidencia invalid");
