@@ -89,7 +89,7 @@ public class LlistaIncidencies implements InLlistaIncidencies, Serializable {
             }
 
         }
-        return null;
+        throw new ExcepcioCamping("No hi ha cap incidencia amb aquest ID");
     }
     public boolean isAllotjament(Allotjament allotjament){
         Iterator<Incidencia> it = llistaIncidencies.iterator();
@@ -100,5 +100,9 @@ public class LlistaIncidencies implements InLlistaIncidencies, Serializable {
             }
         }
         return false;
+    }
+
+    public ArrayList<Incidencia> getLlistaIncidencies() {
+        return llistaIncidencies;
     }
 }

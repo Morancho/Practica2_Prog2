@@ -89,22 +89,34 @@ public class Camping implements InCamping, Serializable {
         Allotjament allotjament;
         try {
             allotjament = llistaAllotjaments.getAllotjament(idAllotjament); // Crida al mètode de buscar l'allotjament
+            if (idAllotjament == null || idAllotjament.isEmpty()) {
+                throw new ExcepcioCamping("L'id de l'allotjament no pot estar buit.");
+            }
+            if (tipus == null || tipus.isEmpty()) {
+                throw new ExcepcioCamping("El tipus d'incidència no pot estar buit.");
+            }
+            if (data == null || data.isEmpty()) {
+                throw new ExcepcioCamping("La data no pot estar buida.");
+            }
+
+            // Comprovar si ja existeix una incidència amb el 'num' introducció
+            if (llistaIncidencies.getIncidencia(num) != null) {
+                throw new ExcepcioCamping("Error: Ja existeix una incidència amb l'ID: " + num);
+            }
+
+
+            // Afegim la incidència i actualitzem llistes
+            llistaIncidencies.afegirIncidencia(num, tipus, allotjament, data);
+            Incidencia inc = llistaIncidencies.getIncidencia(num);
+            llistaAllotjaments.updateAllotjamentEstat(allotjament, inc);
+            llistaAccessos.actualitzaEstatAccessos();
+
         } catch (ExcepcioCamping e) {
             // Missatge per si l'allotjament amb aquest ID no existeix.
-            throw new ExcepcioCamping("Error: No existeix l'allotjament amb id: " + idAllotjament + ". Si us plau, comprova el ID.");
-        }
-
-        // Comprovar si ja existeix una incidència amb el 'num' introducció
-        if (llistaIncidencies.getIncidencia(num) != null) {
-            throw new ExcepcioCamping("Error: Ja existeix una incidència amb l'ID: " + num);
+            throw new ExcepcioCamping("Error: " + e.getMessage());
         }
 
 
-        // Afegim la incidència i actualitzem llistes
-        llistaIncidencies.afegirIncidencia(num, tipus, allotjament, data);
-        Incidencia inc = llistaIncidencies.getIncidencia(num);
-        llistaAllotjaments.updateAllotjamentEstat(allotjament, inc);
-        llistaAccessos.actualitzaEstatAccessos();
     }
 
     /**

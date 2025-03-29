@@ -146,5 +146,7 @@ public class LlistaAccessos implements InLlistaAccessos, Serializable {
         return num;
     }
 
-
+    public ArrayList<Acces> getLlistaAccessos() {
+        return llistaAccessos;
+    }
 }
