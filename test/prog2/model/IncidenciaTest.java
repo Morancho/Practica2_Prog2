@@ -8,11 +8,11 @@ class IncidenciaTest {
     @Test
     void testConstructorAndGetters() {
         Allotjament allotjament = new Parcela("Parcela nord", "ALL1", true, "50", 20.0f, true);
-        Incidencia incidencia = new Incidencia(1, allotjament, "Reparacio", "2025-03-29");
+        Incidencia incidencia = new Incidencia(1, allotjament, "Reparacio", "2025/03/29");
 
         assertEquals(1, incidencia.getNumero());
         assertEquals(allotjament, incidencia.getAllotjament());
-        assertEquals("2025-03-29", incidencia.getData());
+        assertEquals("2025/03/29", incidencia.getData());
         assertEquals(Incidencia.TipusIncidencia.Reparacio, incidencia.getTipus());
     }
 
@@ -20,14 +20,14 @@ class IncidenciaTest {
     void testSetters() {
         Allotjament allotjament = new Parcela("Parcela nord", "ALL1", true, "50", 20.0f, true);
 
-        Incidencia incidencia = new Incidencia(2, allotjament, "Neteja", "2025-03-29");
+        Incidencia incidencia = new Incidencia(2, allotjament, "Neteja", "2025/03/29");
 
         incidencia.setNumero(10);
         assertEquals(10, incidencia.getNumero());
         assertEquals(allotjament, incidencia.getAllotjament());
 
-        incidencia.setData("2025-04-01");
-        assertEquals("2025-04-01", incidencia.getData());
+        incidencia.setData("2025/04/01");
+        assertEquals("2025/04/01", incidencia.getData());
 
 
         assertEquals(Incidencia.TipusIncidencia.Neteja, incidencia.getTipus());
@@ -37,13 +37,13 @@ class IncidenciaTest {
     void testGetIluminacioAllotjament() {
         Allotjament allotjament = new Parcela("Parcela nord", "ALL1", true, "50", 20.0f, true);
 
-        Incidencia incidencia1 = new Incidencia(1, allotjament, "Reparacio", "2025-03-29");
+        Incidencia incidencia1 = new Incidencia(1, allotjament, "Reparacio", "2025/03/29");
         assertEquals("100%", incidencia1.getIluminacioAllotjament());
 
-        Incidencia incidencia2 = new Incidencia(2, allotjament, "Neteja", "2025-03-29");
+        Incidencia incidencia2 = new Incidencia(2, allotjament, "Neteja", "2025/03/29");
         assertEquals("50%", incidencia2.getIluminacioAllotjament());
 
-        Incidencia incidencia3 = new Incidencia(3, allotjament, "Tancament", "2025-03-29");
+        Incidencia incidencia3 = new Incidencia(3, allotjament, "Tancament", "2025/03/29");
         assertEquals("0%", incidencia3.getIluminacioAllotjament());
     }
 
@@ -51,10 +51,10 @@ class IncidenciaTest {
     void testToString() {
         Allotjament allotjament = new Parcela("Parcela nord", "ALL1", true, "50", 20.0f, true);
 
-        Incidencia incidencia = new Incidencia(1, allotjament, "Reparacio", "2025-03-29");
+        Incidencia incidencia = new Incidencia(1, allotjament, "Reparacio", "2025/03/29");
 
         String expected = "Incidencia{numero=1, allotjament= " + allotjament +
-                ", data= 2025-03-29, tipus= Reparacio}";
+                ", data= 2025/03/29, tipus= Reparacio}";
         assertEquals(expected, incidencia.toString());
     }
 }
