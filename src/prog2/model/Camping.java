@@ -88,7 +88,7 @@ public class Camping implements InCamping, Serializable {
         // Validem si l'ID de l'allotjament existeix abans de procedir
         Allotjament allotjament;
         try {
-            allotjament = llistaAllotjaments.getAllotjament(idAllotjament); // Crida al mètode de buscar l'allotjament
+
             if (idAllotjament == null || idAllotjament.isEmpty()) {
                 throw new ExcepcioCamping("L'id de l'allotjament no pot estar buit.");
             }
@@ -98,9 +98,7 @@ public class Camping implements InCamping, Serializable {
             if (data == null || data.isEmpty()) {
                 throw new ExcepcioCamping("La data no pot estar buida.");
             }
-
-
-
+            allotjament = llistaAllotjaments.getAllotjament(idAllotjament); // Crida al mètode de buscar l'allotjament
 
             // Afegim la incidència i actualitzem llistes
             llistaIncidencies.afegirIncidencia(num, tipus, allotjament, data);

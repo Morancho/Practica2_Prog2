@@ -87,26 +87,28 @@ public class LlistaAccessos implements InLlistaAccessos, Serializable {
      */
     @Override
     public void actualitzaEstatAccessos() throws ExcepcioCamping {
+
         Iterator<Acces> it = llistaAccessos.iterator();
 
-        while(it.hasNext()) {
-            boolean oper = true;
+        while (it.hasNext()) {
             Acces acc = it.next();
-            LlistaAllotjaments llistaAllotjaments = acc.getllistaAllotjament();
-            Iterator<Allotjament> it2 = llistaAllotjaments.getAllotjaments().iterator();
-            while(it2.hasNext()) {
-                Allotjament allotjament = it2.next();
 
-                if(!allotjament.getEstat()){
+            // Tanquem els accessos
+            acc.setEstat(false);
 
-                    oper = false;
+            Iterator<Allotjament> it_allotjament = acc.getllistaAllotjament().getAllotjaments().iterator();
+            while (it_allotjament.hasNext()) {
+                Allotjament all = it_allotjament.next();
+
+                if (all.getEstat()) {
+                    acc.setEstat(true);
+                    break;
                 }
+
             }
-            acc.setEstat(oper);
-
-
         }
     }
+
 
     /**
      * Itera sobre la llista d'accessos i retorna el número d'accessos amb accessibilitat.

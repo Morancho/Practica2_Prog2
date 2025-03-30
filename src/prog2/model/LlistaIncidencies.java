@@ -31,6 +31,7 @@ public class LlistaIncidencies implements InLlistaIncidencies, Serializable {
     @Override
     public void afegirIncidencia(int num, String tipus, Allotjament allotjament, String data) throws ExcepcioCamping {
 
+        //Comprobem si ja existeix una incidencia amb el mateix ID
         Iterator<Incidencia> it = llistaIncidencies.iterator();
         while(it.hasNext()) {
             Incidencia incidencia = it.next();
@@ -38,6 +39,8 @@ public class LlistaIncidencies implements InLlistaIncidencies, Serializable {
                 throw new ExcepcioCamping("Ja existeix una incidencia amb aquest ID: "+ num + " en llistaIncidencies.");
             }
         }
+
+        //Comprobem que la incidencia no sigui en el mateix allotjament
         if(!isAllotjament(allotjament)){
 
             Incidencia incidencia = new Incidencia(num,allotjament,tipus,data);

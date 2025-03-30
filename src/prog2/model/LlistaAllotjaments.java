@@ -118,7 +118,9 @@ public class LlistaAllotjaments implements InLlistaAllotjaments, Serializable {
 
     public void updateAllotjamentEstat(Allotjament a, Incidencia incidencia) throws ExcepcioCamping{
 
-
+        Allotjament allotjament = getAllotjament(a.getId()); // Usa el metodo ya implementado, getAllotjament()
+        allotjament.tancarAllotjament(incidencia);
+        /*
         Iterator<Allotjament> iterator = llistaAllotjaments.iterator();
         while (iterator.hasNext()) {
             Allotjament allotjament = iterator.next();
@@ -126,6 +128,7 @@ public class LlistaAllotjaments implements InLlistaAllotjaments, Serializable {
                 allotjament.tancarAllotjament(incidencia);
             }
         }
+         */
     }
     public ArrayList<Allotjament> getAllotjaments(){
         return this.llistaAllotjaments;
