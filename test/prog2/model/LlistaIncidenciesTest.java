@@ -23,8 +23,8 @@ public class LlistaIncidenciesTest {
         bungalow = new Bungalow("Bungalow 1", "B1", true, "100%", 30.0f, 2, 4, 1, true, true, true);
 
         // Create test incidents using enum types
-        incidencia1 = new Incidencia(1, Incidencia.TipusIncidencia.Reparacio, parcela, "2023-05-01");
-        incidencia2 = new Incidencia(2, Incidencia.TipusIncidencia.Neteja, bungalow, "2023-05-02");
+        incidencia1 = new Incidencia(1, Incidencia.TipusIncidencia.Reparacio, parcela, "2023/05/01");
+        incidencia2 = new Incidencia(2, Incidencia.TipusIncidencia.Neteja, bungalow, "2023/05/02");
 
         // Add incidents to list
         llistaIncidencies.afegirIncidencia(incidencia1.getidIncidencia(),
@@ -37,7 +37,7 @@ public class LlistaIncidenciesTest {
                 incidencia2.getdata());
     }
 
-    // Updated Incidencia class with enum
+
     public static class Incidencia {
         private int idIncidencia;
         private TipusIncidencia tipus;
@@ -57,7 +57,7 @@ public class LlistaIncidenciesTest {
             this.data = data;
         }
 
-        // Alternative constructor that takes String and converts to enum
+
         public Incidencia(int idIncidencia, String tipusStr, Allotjament allotjament, String data) {
             this.idIncidencia = idIncidencia;
             this.allotjament = allotjament;
@@ -94,12 +94,12 @@ public class LlistaIncidenciesTest {
     @Test
     void testConstructor() {
         assertNotNull(llistaIncidencies);
-        assertEquals(2, llistaIncidencies.getIncidencies().size());
+        assertEquals(2, llistaIncidencies.getLlistaIncidencies().size());
     }
 
     @Test
-    void testAfegirIncidencia() throws ExcepcioCamping {
-        int initialSize = llistaIncidencies.getIncidencies().size();
+    void testAddIncidencia() throws ExcepcioCamping {
+        int initialSize = llistaIncidencies.getLlistaIncidencies().size();
         Allotjament allotjament = new Parcela("Parcela nord", "ALL1", true, "50", 20.0f, true);
 
         Incidencia newIncidencia = new Incidencia(3, Incidencia.TipusIncidencia.Tancament, allotjament, "2023-05-03");
@@ -107,34 +107,33 @@ public class LlistaIncidenciesTest {
                 newIncidencia.getTipus().name(),
                 newIncidencia.getAllotjament(),
                 newIncidencia.getdata());
-        assertEquals(initialSize + 1, llistaIncidencies.getIncidencies().size());
+        assertEquals(initialSize + 1, llistaIncidencies.getLlistaIncidencies().size());
     }
 
     @Test
-    void testIncidenciaEnumValues() {
-        // Test all enum values are handled correctly
+    void testConstructorWithEnum() {
+
         assertDoesNotThrow(() -> {
-            new Incidencia(4, "Reparacio", parcela, "2023-05-04");
-            new Incidencia(5, "Neteja", bungalow, "2023-05-05");
-            new Incidencia(6, "Tancament", parcela, "2023-05-06");
+            new Incidencia(4, "Tancament", parcela, "2023/05/04");
+            new Incidencia(5, "Neteja", bungalow, "2023/05/05");
+            new Incidencia(6, "Reparacio", parcela, "2023/05/06");
         });
 
         assertThrows(IllegalArgumentException.class, () -> {
-            new Incidencia(7, "InvalidType", bungalow, "2023-05-07");
+            new Incidencia(7, "InvalidType", bungalow, "2023/05/07");
         });
     }
 
     @Test
-    void testIncidenciaIluminacio() {
-        Incidencia repIncidencia = new Incidencia(8, Incidencia.TipusIncidencia.Reparacio, parcela, "2023-05-08");
+    void testGetIluminacioAllotjament() {
+        Incidencia repIncidencia = new Incidencia(8, Incidencia.TipusIncidencia.Reparacio, parcela, "2023/05/08");
         assertEquals("100%", repIncidencia.getIluminacioAllotjament());
 
-        Incidencia netejaIncidencia = new Incidencia(9, Incidencia.TipusIncidencia.Neteja, bungalow, "2023-05-09");
+        Incidencia netejaIncidencia = new Incidencia(9, Incidencia.TipusIncidencia.Neteja, bungalow, "2023/05/09");
         assertEquals("50%", netejaIncidencia.getIluminacioAllotjament());
 
-        Incidencia tancIncidencia = new Incidencia(10, Incidencia.TipusIncidencia.Tancament, parcela, "2023-05-10");
+        Incidencia tancIncidencia = new Incidencia(10, Incidencia.TipusIncidencia.Tancament, parcela, "2023/05/10");
         assertEquals("0%", tancIncidencia.getIluminacioAllotjament());
     }
 
-    // ... (rest of the test methods remain the same as in previous version)
 }
