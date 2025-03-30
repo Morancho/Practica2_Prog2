@@ -133,7 +133,7 @@ public abstract class Allotjament implements InAllotjament, Serializable {
 
             switch (in.getTipus()) {
                 case Reparacio:
-                    this.iluminacio = "0%";  // Apagar la llum si és una reparació
+                    this.iluminacio = "100%";  // Apagar la llum si és una reparació
                     this.estat = false;
                     break;
                 case Neteja:
@@ -141,7 +141,7 @@ public abstract class Allotjament implements InAllotjament, Serializable {
                     this.estat = false;
                     break;
                 case Tancament:
-                    this.iluminacio = "50%";  // Per tancament, reduir la il·luminació
+                    this.iluminacio = "0%";  // Per tancament, reduir la il·luminació
                     this.estat = false;
                     break;
                 default:
@@ -158,11 +158,14 @@ public abstract class Allotjament implements InAllotjament, Serializable {
         this.estat = true;
         this.iluminacio = "100%";
     }
+
     @Override
     public String toString() {
         return getClass().getSimpleName() + " {Nom=" + getNom() + ", Id=" + getId() +
                 ", estada mínima en temp ALTA: " + getEstadaMinimaALTA() +
-                ", estada mínima en temp BAIXA: " + getEstadaMinimaBAIXA() + "}";
+                ", estada mínima en temp BAIXA: " + getEstadaMinimaBAIXA() +
+                ", Estat: " + (estat ? "Operatiu" : "No Operatiu") +
+                ", Il·luminació: " + iluminacio + "}";
     }
 
 }

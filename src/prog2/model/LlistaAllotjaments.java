@@ -52,7 +52,7 @@ public class LlistaAllotjaments implements InLlistaAllotjaments, Serializable {
             Allotjament allotjament = iterator.next();
 
             boolean operatiu = allotjament.getEstat();
-            if (estat.equals("Tots") || (estat.equals("Operatiu") && operatiu) || (estat.equals("NoOperatiu") && !operatiu)) {
+            if (estat.equals("Tots") || (estat.equals("Operatiu") && operatiu) || (estat.equals("No Operatiu") && !operatiu)) {
                 result += allotjament.toString() + "\n";
                 cont ++;
             }

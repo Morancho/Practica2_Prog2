@@ -119,7 +119,9 @@ public class LlistaAccessos implements InLlistaAccessos, Serializable {
         Iterator<Acces> it = llistaAccessos.iterator();
         while(it.hasNext()) {
             Acces acc = it.next();
-            if(acc.isAccessibilitat()){
+
+            //Com no tinc clar si han de ser els que estan a més a més amb un allotjament operatiu deixo el cambi en comentari:
+            if(acc.isAccessibilitat()){ //if (acc.isAccessibilitat() && acc.getEstat())
                 num++;
             }
         }

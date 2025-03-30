@@ -1,0 +1,1104 @@
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, Estat: Operatiu, Il·luminació: 100%, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, Estat: Operatiu, Il·luminació: 100%, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, Estat: Operatiu, Il·luminació: 100%, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, Estat: Operatiu, Il·luminació: 100%, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, Estat: Operatiu, Il·luminació: 100%, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, Estat: Operatiu, Il·luminació: 100%, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, Estat: Operatiu, Il·luminació: 100%, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, Estat: Operatiu, Il·luminació: 100%, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, Estat: Operatiu, Il·luminació: 100%, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, Estat: Operatiu, Il·luminació: 100%, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, Estat: Operatiu, Il·luminació: 100%, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, Estat: Operatiu, Il·luminació: 100%, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, Estat: Operatiu, Il·luminació: 100%, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, Estat: Operatiu, Il·luminació: 100%, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, Estat: Operatiu, Il·luminació: 100%, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, Estat: Operatiu, Il·luminació: 100%, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, Estat: Operatiu, Il·luminació: 100%, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, Estat: Operatiu, Il·luminació: 100%, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, Estat: Operatiu, Il·luminació: 100%, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, Estat: Operatiu, Il·luminació: 100%, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, Estat: Operatiu, Il·luminació: 100%, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, Estat: Operatiu, Il·luminació: 100%, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, Estat: Operatiu, Il·luminació: 100%, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, Estat: Operatiu, Il·luminació: 100%, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, Estat: Operatiu, Il·luminació: 100%, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, Estat: Operatiu, Il·luminació: 100%, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, Estat: Operatiu, Il·luminació: 100%, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, Estat: Operatiu, Il·luminació: 100%, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, Estat: Operatiu, Il·luminació: 100%, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, Estat: Operatiu, Il·luminació: 100%, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+
+Nom del Camping:
+Camping Green
+Allotjaments:
+Parcela {Nom=Parcel·la Nord, Id=ALL1, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, Estat: Operatiu, Il·luminació: 100%, mida=64.0, connexioElectrica=true}
+Parcela {Nom=Parcel·la Sud, Id=ALL2, estada mínima en temp ALTA: 4, estada mínima en temp BAIXA: 2, Estat: Operatiu, Il·luminació: 100%, mida=64.0, connexioElectrica=true}
+Bungalow {Nom=Bungalow Nord, Id=ALL3, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, Estat: Operatiu, Il·luminació: 100%, placesParquing=1, terrassa=true, tv=true, aireFred=true}
+BungalowPremium {Nom=Bungallow Sud, Id=ALL4, estada mínima en temp ALTA: 7, estada mínima en temp BAIXA: 4, Estat: Operatiu, Il·luminació: 100%, placesParquing=1, terrassa=true, tv=true, aireFred=true, serveisExtra=true, codiWifi='CampingDelMarBP1'}
+Glamping {Nom=Glamping Nord, Id=ALL5, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, Estat: Operatiu, Il·luminació: 100%, material='Tela', casaMascota=true}
+MobilHome {Nom=Mobil-Home Sud, Id=ALL6, estada mínima en temp ALTA: 5, estada mínima en temp BAIXA: 3, Estat: Operatiu, Il·luminació: 100%, terrassaAmbBarbacoa=true}
+
+Accessos:
+CamiAsfaltat {nom=A1, estat=true, accessibilitat=false, Area Asfaltada: 200.0 m²}
+CarreteraAsfaltada {nom=A2, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A3, estat=true, accessibilitat=false, Longitud: 100.0 m}
+CarreteraTerra {nom=A4, estat=true, accessibilitat=true, Longitud: 200.0 m}
+CamiAsfaltat {nom=A5, estat=true, accessibilitat=false, Area Asfaltada: 350.0 m²}
+CarreteraAsfaltada {nom=A6, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiAsfaltat {nom=A7, estat=true, accessibilitat=false, Area Asfaltada: 100.0 m²}
+CarreteraAsfaltada {nom=A8, estat=true, accessibilitat=true, Area Asfaltada: 800.0 m²}
+CamiTerra {nom=A9, estat=true, accessibilitat=false, Longitud: 50.0 m}
+CarreteraTerra {nom=A10, estat=true, accessibilitat=true, Longitud: 400.0 m}
+CamiTerra {nom=A11, estat=true, accessibilitat=false, Longitud: 80.0 m}
+CarreteraTerra {nom=A12, estat=true, accessibilitat=true, Longitud: 800.0 m}
+

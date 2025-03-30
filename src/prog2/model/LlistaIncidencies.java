@@ -12,6 +12,7 @@ public class LlistaIncidencies implements InLlistaIncidencies, Serializable {
     public LlistaIncidencies() {
         llistaIncidencies = new ArrayList<>();
     }
+
     public ArrayList<Incidencia> getIncidencies(){
         return this.llistaIncidencies;
     }

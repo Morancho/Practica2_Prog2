@@ -247,7 +247,7 @@ public class VistaCamping {
 
                 case LLISTAR_ALLOTJAMENTS_NO_OPERATIUS:
                     try {
-                        String allotjamentsNoOperatius = camping.llistarAllotjaments("NoOperatiu");
+                        String allotjamentsNoOperatius = camping.llistarAllotjaments("No Operatiu");
                         if (allotjamentsNoOperatius.isEmpty()) {
                             System.out.println("No hi ha allotjaments no operatius.");
                         } else {
@@ -296,7 +296,6 @@ public class VistaCamping {
                         System.err.println("S'ha produït un error en llistar incidències: " + e.getMessage());
                     }
                     break;
-
             }
 
         } while(opcio!= OpcionsMenuSecundari.MENU_SECUND_SORTIR);
