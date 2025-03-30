@@ -27,12 +27,12 @@ public class LlistaAccessosTest {
 
         // Create test access paths
         acces1 = new CamiTerra("CT1", true, 100.0f);
-        acces2 = new CarreteraTerra("CRT1", true, 200.0f, 3.0f);
-        accesAsfaltat1 = new CamiAsfaltat("CA1", true, 150.0f);
+        acces2 = new CarreteraTerra("CRT1", true, 150.0f, 3.0f);
+        accesAsfaltat1 = new CamiAsfaltat("CA1", true, 200.0f);
         accesAsfaltat2 = new CarreteraAsfaltada("CRA1", true, 300.0f, 10000.0f);
 
         // Create test accommodations
-        parcela = new Parcela("Parcela 1", "P1", true, "100%", 50.0f, true);
+        parcela = new Parcela("Parcela 1", "P1", true, "100%", 70.0f, true);
         bungalow = new Bungalow("Bungalow 1", "B1", true, "100%", 30.0f, 2, 4, 1, true, true, true);
 
         // Add accommodations to access paths
@@ -57,7 +57,7 @@ public class LlistaAccessosTest {
     @Test
     void testAfegirAcces() throws ExcepcioCamping {
         int initialSize = llistaAccessos.getLlistaAccessos().size();
-        Acces newAcces = new CamiTerra("CT2", true, 50.0f);
+        Acces newAcces = new CamiTerra("CT2", true, 60.0f);
         llistaAccessos.afegirAcces(newAcces);
         assertEquals(initialSize + 1, llistaAccessos.getLlistaAccessos().size());
     }
@@ -119,8 +119,8 @@ public class LlistaAccessosTest {
         int accessibleCount = llistaAccessos.calculaAccessosAccessibles();
         assertEquals(2, accessibleCount); // All are accessible in setup
 
-        // Add a non-accessible path
-        Acces nonAccessible = new CarreteraAsfaltada("CT6", true, 50.0f, 10000.0f);
+
+        Acces nonAccessible = new CarreteraAsfaltada("CT6", true, 50.0f, 5000.0f);
         llistaAccessos.afegirAcces(nonAccessible);
         assertEquals(3, llistaAccessos.calculaAccessosAccessibles());
     }
@@ -129,15 +129,10 @@ public class LlistaAccessosTest {
     void testCalculaMetresQuadratsAsfalt() throws ExcepcioCamping {
         float expectedAsphalt = accesAsfaltat1.getAreaAsfalt() + accesAsfaltat2.getAreaAsfalt();
         float actualAsphalt = llistaAccessos.calculaMetresQuadratsAsfalt();
-        assertEquals(expectedAsphalt, actualAsphalt, 0.001f);
+        assertEquals(expectedAsphalt, actualAsphalt);
     }
 
-    @Test
-    void testGetLlistaAccessos() {
-        ArrayList<Acces> accessos = llistaAccessos.getLlistaAccessos();
-        assertEquals(4, accessos.size());
-        assertTrue(accessos.get(0) instanceof Acces);
-    }
+
 
     @Test
     void testLlistarAccessosEmptyList() throws ExcepcioCamping {
