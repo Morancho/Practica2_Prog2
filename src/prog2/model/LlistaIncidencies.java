@@ -71,10 +71,12 @@ public class LlistaIncidencies implements InLlistaIncidencies, Serializable {
     @Override
     public String llistarIncidencies() throws ExcepcioCamping {
         String result = "";
+
         Iterator<Incidencia> it = llistaIncidencies.iterator();
+
         while(it.hasNext()) {
             Incidencia incidencia = it.next();
-            result += incidencia.toString();
+            result += incidencia + "\n";
         }
         if(result.equals("")){
             throw new ExcepcioCamping("No hi ha incidencies");
@@ -82,6 +84,7 @@ public class LlistaIncidencies implements InLlistaIncidencies, Serializable {
         else {
             return result;
         }
+
     }
     /**
      * Busca la incidència amb el número rebut per paràmetre i la retorna.
@@ -113,7 +116,5 @@ public class LlistaIncidencies implements InLlistaIncidencies, Serializable {
         return false;
     }
 
-    public ArrayList<Incidencia> getLlistaIncidencies() {
-        return llistaIncidencies;
-    }
+
 }

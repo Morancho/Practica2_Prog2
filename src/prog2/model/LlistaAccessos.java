@@ -52,8 +52,8 @@ public class LlistaAccessos implements InLlistaAccessos, Serializable {
     public String llistarAccessos(boolean estat) throws ExcepcioCamping {
         String result = "";
         int cont = 0;
-        Iterator<Acces> it = llistaAccessos.iterator();
 
+        Iterator<Acces> it = llistaAccessos.iterator();
 
         while (it.hasNext()) {
             Acces acc = it.next();

@@ -94,12 +94,12 @@ public class LlistaIncidenciesTest {
     @Test
     void testConstructor() {
         assertNotNull(llistaIncidencies);
-        assertEquals(2, llistaIncidencies.getLlistaIncidencies().size());
+        assertEquals(2, llistaIncidencies.getIncidencies().size());
     }
 
     @Test
     void testAfegirIncidencia() throws ExcepcioCamping {
-        int initialSize = llistaIncidencies.getLlistaIncidencies().size();
+        int initialSize = llistaIncidencies.getIncidencies().size();
         Allotjament allotjament = new Parcela("Parcela nord", "ALL1", true, "50", 20.0f, true);
 
         Incidencia newIncidencia = new Incidencia(3, Incidencia.TipusIncidencia.Tancament, allotjament, "2023-05-03");
@@ -107,7 +107,7 @@ public class LlistaIncidenciesTest {
                 newIncidencia.getTipus().name(),
                 newIncidencia.getAllotjament(),
                 newIncidencia.getdata());
-        assertEquals(initialSize + 1, llistaIncidencies.getLlistaIncidencies().size());
+        assertEquals(initialSize + 1, llistaIncidencies.getIncidencies().size());
     }
 
     @Test
