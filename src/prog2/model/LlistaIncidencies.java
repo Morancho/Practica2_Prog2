@@ -30,7 +30,13 @@ public class LlistaIncidencies implements InLlistaIncidencies, Serializable {
     @Override
     public void afegirIncidencia(int num, String tipus, Allotjament allotjament, String data) throws ExcepcioCamping {
 
-
+        Iterator<Incidencia> it = llistaIncidencies.iterator();
+        while(it.hasNext()) {
+            Incidencia incidencia = it.next();
+            if(incidencia.getNumero() == num){
+                throw new ExcepcioCamping("Ja existeix una incidencia amb aquest ID: "+ num + " en llistaIncidencies.");
+            }
+        }
         if(!isAllotjament(allotjament)){
 
             Incidencia incidencia = new Incidencia(num,allotjament,tipus,data);
@@ -78,6 +84,7 @@ public class LlistaIncidencies implements InLlistaIncidencies, Serializable {
      * En cas que no existeixi llança una excepció.
      * @param num Número d'identificació de la incidència.
      * @return Objecte de tipus Incidència
+     * @throws ExcepcioCamping Aquest mètode llança una excepció si no existeix cap incidència amb el número passat per paràmetre.
      */
     @Override
     public Incidencia getIncidencia(int num) throws ExcepcioCamping {

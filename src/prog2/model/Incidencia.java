@@ -23,7 +23,11 @@ public class Incidencia implements Serializable {
         this.numero = numero;
         this.allotjament = allotjament;
         this.data = data;
-        this.tipus = TipusIncidencia.valueOf(tipus);
+        try {
+            this.tipus = TipusIncidencia.valueOf(tipus);
+        } catch (IllegalArgumentException e) {
+            throw new ExcepcioCamping("Tipus d'incidència invàlid: " + tipus);
+        }
     }
 
     // Getters

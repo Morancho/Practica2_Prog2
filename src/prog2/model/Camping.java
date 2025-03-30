@@ -126,14 +126,15 @@ public class Camping implements InCamping, Serializable {
     public void eliminarIncidencia(int num) throws ExcepcioCamping {
         try {
 
-
-            Incidencia inc = llistaIncidencies.getIncidencia(num);
-            if (inc == null) {
-                throw new ExcepcioCamping("No existeix incidència amb id: " + num + ". Si us plau, comprova el ID.");
+            try{
+                Incidencia inc = llistaIncidencies.getIncidencia(num);
+                llistaIncidencies.eliminarIncidencia(inc);
+                inc.getAllotjament().obrirAllotjament();
+                llistaAccessos.actualitzaEstatAccessos();
+            } catch (ExcepcioCamping e) {
+                throw new ExcepcioCamping("Error: " + e.getMessage());
             }
-            llistaIncidencies.eliminarIncidencia(inc);
-            inc.getAllotjament().obrirAllotjament();
-            llistaAccessos.actualitzaEstatAccessos();
+
         }
         catch (ExcepcioCamping e) {
             throw new ExcepcioCamping(e.getMessage());
