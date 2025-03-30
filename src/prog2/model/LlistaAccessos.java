@@ -88,6 +88,25 @@ public class LlistaAccessos implements InLlistaAccessos, Serializable {
     @Override
     public void actualitzaEstatAccessos() throws ExcepcioCamping {
 
+        /*
+        while(it.hasNext()) {
+            boolean oper = true;
+            Acces acc = it.next();
+            LlistaAllotjaments llistaAllotjaments = acc.getllistaAllotjament();
+            Iterator<Allotjament> it2 = llistaAllotjaments.getAllotjaments().iterator();
+            while(it2.hasNext()) {
+                Allotjament allotjament = it2.next();
+
+                if(!allotjament.getEstat()){
+
+                    oper = false;
+                }
+            }
+            acc.setEstat(oper);
+        }
+
+         */
+
         Iterator<Acces> it = llistaAccessos.iterator();
 
         while (it.hasNext()) {
